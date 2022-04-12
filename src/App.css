@@ -2,9 +2,75 @@
   text-align: center;
 }
 
+.GridBG {
+  background-image: url("/public/Grid/grid-Cell-Sub.svg");
+  background-position: right 162px center;
+  height: 100vh;
+  width: 100%;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  margin-top: 80px;
+  position: absolute; 
+}
+
+.WrapperBox {
+  position: relative;
+}
+
+.ContentBox {
+  position: relative;
+  z-index: 1;
+}
+
+.ColorWhite {
+  color: white;
+}
+
+.AboutBox {
+  color: white;
+  background-color: #002a99;
+  padding: 50px;
+}
+
+.ExamplesBox {
+  padding: 50px;
+}
+
+.PricingBox {
+  padding: 100px 50px;
+  background-color: #0046ff;
+  color: white;
+  text-align: left;
+}
+
+.PricingBox h2 {
+  padding: 10px;
+}
+
+.TextAlignRight {
+  text-align: right;
+}
+
+.AboutBoxContent {
+  text-align: left;
+}
+
+.ExamplesBoxContent {
+  text-align: left;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.navigation {
+  padding: 20px;
+}
+.navigation a {
+  text-decoration: none;
+  margin: 10px 20px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -28,10 +94,45 @@
   color: #61dafb;
 }
 
+.App-footer {}
+
+.color-black {
+  color: #000f38;
+}
+
+.color-navy-blue {
+  color: #002a99;
+}
+
+.color-blue {
+  color: #0046ff;
+}
+
+.color-purple {
+  color: #a7bfff;
+}
+
+.color-red {
+  color: #ff4b00;
+}
+
+.color-yellow-dark {
+  color: #ffa500;
+}
+
+.color-yellow {
+  color: #ffcf00;
+}
+
+.color-black {
+  color: #000f38;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
