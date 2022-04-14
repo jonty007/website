@@ -1,0 +1,35 @@
+.featureDot {
+    background-image: url("/public/feature-dot.png");
+    height: 22px;
+    width: 22px;
+    z-index: 1;
+    top: 23.83px;
+    left: 18.08px;
+    position: relative;   
+}
+
+.featureHeading {
+    height: 32px;
+    width: 473px;
+    z-index: 1;
+    top: 21px;
+    left: 58px;
+    position: relative; 
+    font-size: 32px;
+    font-family: 'Formular';
+    color: #000000;
+    text-align: left;
+}
+
+.featureText {
+    height: 215px;
+    width: 393px;
+    z-index: 1;
+    top: 77px;
+    left: 58px;
+    position: relative; 
+    font-size: 24px;
+    font-family: 'Formular';
+    color: #787878;
+    text-align: left;
+}

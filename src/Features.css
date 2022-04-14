@@ -1,0 +1,151 @@
+.featuresContainer {
+    background-image: url("/public/Grid/Grid-Module-6x6.svg");
+    height: 1884px;
+    width: 1920px;
+    top: 1884px;
+    left: 0;
+    position: absolute; 
+}
+
+.feature1 {
+    height: 316px;
+    width: 628px;
+    z-index: 1;
+    top: 0px;
+    left: 17px;
+    position: absolute;  
+}
+
+.feature2 {
+    height: 346px;
+    width: 628px;
+    z-index: 1;
+    top: 0px;
+    left: 645px;
+    position: absolute;  
+}
+
+.feature3 {
+    height: 316px;
+    width: 628px;
+    z-index: 1;
+    top: 0px;
+    left: 1273px;
+    position: absolute;  
+}
+
+.feature4 {
+    height: 316px;
+    width: 628px;
+    z-index: 1;
+    top: 345px;
+    left: 17px;
+    position: absolute;  
+}
+
+.feature5 {
+    height: 316px;
+    width: 628px;
+    z-index: 1;
+    top: 345px;
+    left: 643px;
+    position: absolute;  
+}
+
+.feature6 {
+    height: 316px;
+    width: 628px;
+    z-index: 1;
+    top: 345px;
+    left: 1273px;
+    position: absolute;  
+}
+
+.feature7 {
+    height: 316px;
+    width: 628px;
+    z-index: 1;
+    top: 661px;
+    left: 17px;
+    position: absolute;  
+}
+
+.gly6 {
+    background-image: url("/public/gly/Gly-6.svg");
+    height: 157px;
+    width: 157px;
+    z-index: 1;
+    top: 785px;
+    left: 1745px;
+    position: absolute; 
+}
+
+.gly7 {
+    background-image: url("/public/gly/Gly-7.svg");
+    height: 157px;
+    width: 157px;
+    z-index: 1;
+    top: 942px;
+    left: 1745px;
+    position: absolute; 
+}
+
+.gly8 {
+    background-image: url("/public/gly/Gly-8.svg");
+    height: 157px;
+    width: 157px;
+    z-index: 1;
+    top: 1099.42px;
+    left: 1745px;
+    position: absolute; 
+}
+
+.gly9 {
+    background-image: url("/public/gly/Gly-9.svg");
+    height: 157px;
+    width: 157px;
+    z-index: 1;
+    top: 1255.92px;
+    left: 1745px;
+    position: absolute; 
+}
+
+.gly10 {
+    background-image: url("/public/gly/Gly-10.svg");
+    height: 157px;
+    width: 157px;
+    z-index: 1;
+    top: 1099.42px;
+    left: 1118px;
+    position: absolute; 
+}
+
+.gly11 {
+    background-image: url("/public/gly/Gly-11.svg");
+    height: 157px;
+    width: 157px;
+    z-index: 1;
+    top: 1255.92px;    
+    left: 1118px;
+    position: absolute; 
+}
+
+.gly12 {
+    background-image: url("/public/gly/Gly-12.svg");
+    height: 157px;
+    width: 157px;
+    z-index: 1;
+    top: 1413px;
+    left: 1118px;
+    position: absolute; 
+}
+
+.gly13 {
+    background-image: url("/public/gly/Gly-13.svg");
+    height: 157px;
+    width: 157px;
+    z-index: 1;
+    top: 1570.33px;
+    left: 1118px;
+    position: absolute; 
+}

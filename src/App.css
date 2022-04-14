@@ -14,6 +14,231 @@
   position: absolute; 
 }
 
+.GridBGFirst {
+  background-image: url("/public/Grid/Grid-Module-6x6.svg");
+  height: 1884.5px;
+  width: 1920px;
+  top: 0;
+  left: 0;
+  position: absolute; 
+}
+
+.GridBGFirstGlyTurningCompl {
+  background-image: url("/public/gly/Gly-turningCompl.png");
+  height: 627.17px;
+  width: 628px;
+  z-index: 2;
+  top: 315.58px;
+  left: 1275px;
+  position: absolute; 
+}
+
+.GridBGFirstGly1 {
+  background-image: url("/public/gly/Gly-1.svg");
+  height: 157.04px;
+  width: 157px;
+  z-index: 1;
+  top: 158.54px;
+  left: 1117.5px;
+  position: absolute; 
+}
+
+.GridBGFirstGly2 {
+  background-image: url("/public/gly/Gly-2.svg");
+  height: 314.08px;
+  width: 314px;
+  z-index: 1;
+  top: 942.75px;
+  left: 960px;
+  position: absolute; 
+}
+
+.GridBGFirstGly3 {
+  background-image: url("/public/gly/Gly-3.svg");
+  height: 157.04px;
+  width: 157px;
+  z-index: 1;
+  top: 940.75px;
+  left: 1274px;
+  position: absolute; 
+}
+
+.GridBGFirstGly4 {
+  background-image: url("/public/gly/Gly-4.svg");
+  height: 157.04px;
+  width: 157px;
+  z-index: 1;
+  top: 1412.37px;
+  left: 1430.5px;
+  position: absolute; 
+}
+
+.GridBGFirstGly5 {
+  background-image: url("/public/gly/Gly-5.svg");
+  height: 157.04px;
+  width: 157px;
+  z-index: 1;
+  top: 1570.42px;
+  left: 1588.5px;
+  position: absolute; 
+}
+
+.GridBGFirstWire1 {
+  background-image: url("/public/wire/Wire-1.png");
+  height: 942px;
+  width: 1118.5px;
+  z-index: 1;
+  top: 315.08px;
+  left: 0;
+  position: absolute; 
+}
+
+.GridBGFirstWire2 {
+  background-image: url("/public/wire/Wire-2.png");
+  height: 629.17px;
+  width: 628px;
+  z-index: 1;
+  top: 0;
+  left: 960px;
+  position: absolute; 
+}
+
+.GridBGFirstWire3 {
+  background-image: url("/public/wire/Wire-3.svg");
+  height: 146.21px;
+  width: 470.64px;
+  z-index: 1;
+  top: 934.75px;
+  left: 1118.36px;
+  position: absolute; 
+}
+
+.GridBGFirstWire4 {
+  background-image: url("/public/wire/Wire-4.svg");
+  height: 70.82px;
+  width: 295px;
+  z-index: 1;
+  top: 1028.27px;
+  left: 1118px;
+  position: absolute; 
+}
+
+.GridBGFirstWire5 {
+  background-image: url("/public/wire/Wire-5.svg");
+  height: 268.49px;
+  width: 82.39px;
+  z-index: 1;
+  top: 1249.08px;
+  left: 1505.61px;
+  position: absolute; 
+}
+
+.GridBGFirstWire6 {
+  background-image: url("/public/wire/Wire-6.svg");
+  height: 1026.1px;
+  width: 85.27px;
+  z-index: 1;
+  top: 632.16px;
+  left: 1585.11px;
+  position: absolute; 
+}
+
+.GridBGFirstWire7 {
+  background-image: url("/public/wire/Wire-7.svg");
+  height: 8px;
+  width: 332px;
+  z-index: 1;
+  top: 1257.32px;
+  left: 1588px;
+  position: absolute; 
+}
+
+.features {
+  height: 150px;
+  width: 582px;
+  z-index: 1;
+  top: 1544px;
+  left: 24.5px;
+  position: absolute; 
+  font-size: 150px;
+  font-family: 'Formular';
+  text-align: left;
+}
+
+.headline {
+  height: 104px;
+  width: 592px;
+  z-index: 1;
+  top: 644px;
+  left: 350px;
+  position: absolute; 
+  font-size: 45px;
+  font-family: 'Formular';
+  text-align: left;
+  color: #000f38;
+}
+
+.subHeading {
+  height: 124px;
+  width: 592px;
+  z-index: 1;
+  top: 769.25px;
+  left: 350px;
+  position: absolute; 
+  font-size: 24px;
+  font-family: 'Formular';
+  text-align: left;
+  color: #787878;
+}
+
+.GridBGFirstGridCellSubContainer {
+  height: 1884.5px;
+  width: 941px;
+  top: 0.5px;
+  left: 961px;
+  position: absolute; 
+}
+
+.GridBGFirstGridCellSub1 {
+  background-image: url("/public/Grid/grid-Cell-Sub.svg");
+  height: 314.08px;
+  width: 314px;
+  z-index: 1;
+  top: 0.5px;
+  left: 961px;
+  position: absolute; 
+}
+
+.GridBGFirstGridCellSub2 {
+  background-image: url("/public/Grid/grid-Cell-Sub.svg");
+  height: 314.08px;
+  width: 314px;
+  z-index: 1;
+  top: 1570.92px;
+  left: 1588px;
+  position: absolute; 
+}
+
+.GridBGFirstGridCellSub3 {
+  background-image: url("/public/Grid/grid-Cell-Sub.svg");
+  height: 314.08px;
+  width: 314px;
+  z-index: 1;
+  top: 1256.83px;
+  left: 1274px;
+  position: absolute; 
+}
+
+.GridBGFirstGridCellSub4 {
+  background-image: url("/public/Grid/grid-Cell-Sub.svg");
+  height: 314.08px;
+  width: 314px;
+  z-index: 1;
+  top: 942.75px;
+  left: 1274px;
+  position: absolute; 
+}
+
 .WrapperBox {
   position: relative;
 }
