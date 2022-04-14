@@ -14,6 +14,7 @@ import { ReactComponent as Instagram } from "./social/insta.svg";
 import { ReactComponent as Medium } from "./social/medium.svg";
 import BasicTabs from "./tabs";
 import Features from "./Features";
+import Pricing from "./Pricing";
 
 function App() {
   return (
@@ -65,6 +66,7 @@ function App() {
         </Box>
       </Box>
       <Features />
+      <Pricing />
     </div>
   );
 }

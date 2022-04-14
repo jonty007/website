@@ -1,0 +1,214 @@
+.pricing-container {
+    height: 1257.45px;
+    width: 1920px;
+    z-index: 1;
+    top: 3767.5px;
+    left: 0px;
+    position: absolute; 
+    background-color: #0046FF;
+}
+
+.horizontal-grid-line-1 {
+    background-image: url("/public/Grid/H-Grid-line.svg");
+    height: 1px;
+    width: 100%;
+    z-index: 1;
+    top: 313.5px;
+    left: 0px;
+    position: absolute; 
+}
+
+.horizontal-grid-line-2 {
+    background-image: url("/public/Grid/H-Grid-line.svg");
+    height: 1px;
+    width: 100%;
+    z-index: 1;
+    top: 627.5px;
+    left: 0px;
+    position: absolute; 
+}
+
+.horizontal-grid-line-3 {
+    background-image: url("/public/Grid/H-Grid-line.svg");
+    height: 1px;
+    width: 100%;
+    z-index: 1;
+    top: 941.5px;
+    left: 0px;
+    position: absolute; 
+}
+
+.horizontal-grid-line-4 {
+    background-image: url("/public/Grid/H-Grid-line.svg");
+    height: 1px;
+    width: 100%;
+    z-index: 1;
+    top: 1255px;
+    left: 0px;
+    position: absolute; 
+}
+
+.vertical-grid-line-1 {
+    background-image: url("/public/Grid/V-Grid-line.svg");
+    height: 100%;
+    width: 1px;
+    z-index: 1;
+    top: 0px;
+    left: 17.5px;
+    position: absolute; 
+}
+
+.vertical-grid-line-2 {
+    background-image: url("/public/Grid/V-Grid-line.svg");
+    height: 100%;
+    width: 1px;
+    z-index: 1;
+    top: 0px;
+    left: 331.5px;
+    position: absolute; 
+}
+
+.vertical-grid-line-3 {
+    background-image: url("/public/Grid/V-Grid-line.svg");
+    height: 100%;
+    width: 1px;
+    z-index: 1;
+    top: 0px;
+    left: 645.5px;
+    position: absolute; 
+}
+
+.vertical-grid-line-4 {
+    background-image: url("/public/Grid/V-Grid-line.svg");
+    height: 100%;
+    width: 1px;
+    z-index: 1;
+    top: 0px;
+    left: 959.5px;
+    position: absolute; 
+}
+
+.vertical-grid-line-5 {
+    background-image: url("/public/Grid/V-Grid-line.svg");
+    height: 100%;
+    width: 1px;
+    z-index: 1;
+    top: 0px;
+    left: 1273.5px;
+    position: absolute; 
+}
+
+.vertical-grid-line-6 {
+    background-image: url("/public/Grid/V-Grid-line.svg");
+    height: 100%;
+    width: 1px;
+    z-index: 1;
+    top: 0px;
+    left: 1587.5px;
+    position: absolute; 
+}
+
+.vertical-grid-line-7 {
+    background-image: url("/public/Grid/V-Grid-line.svg");
+    height: 100%;
+    width: 1px;
+    z-index: 1;
+    top: 0px;
+    left: 1901.5px;
+    position: absolute; 
+}
+
+.pricing-heading {
+    height: 50px;
+    width: 461px;
+    z-index: 2;
+    top: 298px;
+    left: 24.38px;
+    position: absolute; 
+    font-size: 150px;
+    font-family: 'Formular';
+    color: #ffffff;
+    text-align: left;
+}
+
+.pricing-explainer {
+    height: 86px;
+    width: 591px;
+    z-index: 2;
+    top: 338px;
+    left: 664.5px;
+    position: absolute; 
+    font-size: 43px;
+    font-family: 'Formular';
+    color: #ffffff;
+    text-align: left;
+}
+
+.pricing-option-1 {
+    height: 86px;
+    width: 277px;
+    z-index: 2;
+    top: 643px;
+    left: 348px;
+    position: absolute; 
+    font-size: 43px;
+    font-family: 'Formular';
+    color: #ffffff;
+    text-align: left;
+}
+
+.pricing-option-2 {
+    height: 95px;
+    width: 277px;
+    z-index: 2;
+    top: 643px;
+    left: 665px;
+    position: absolute; 
+    font-size: 43px;
+    font-family: 'Formular';
+    color: #ffffff;
+    text-align: left;
+}
+
+.pricing-option-3 {
+    height: 213px;
+    width: 277px;
+    z-index: 2;
+    top: 643px;
+    left: 978px;
+    position: absolute; 
+    font-size: 43px;
+    font-family: 'Formular';
+    color: #ffffff;
+    text-align: left;
+}
+
+.gly14 {
+    background-image: url("/public/gly/Gly-14.svg");
+    height: 157px;
+    width: 157px;
+    z-index: 1;
+    top: 785.5px;
+    left: 1431px;
+    position: absolute; 
+}
+
+.gly15 {
+    background-image: url("/public/gly/Gly-15.svg");
+    height: 314px;
+    width: 314px;
+    z-index: 1;
+    top: 942.5px;
+    left: 1588px;
+    position: absolute; 
+}
+
+.gly16 {
+    background-image: url("/public/gly/Gly-16.svg");
+    height: 78px;
+    width: 78px;
+    z-index: 1;
+    top: 943.5px;
+    left: 1510px;
+    position: absolute; 
+}
