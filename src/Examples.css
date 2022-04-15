@@ -1,0 +1,255 @@
+.examples-container {
+    height: 1570px;
+    width: 1920px;
+    z-index: 1;
+    top: 5023.95px;
+    left: 0px;
+    position: absolute;
+}
+
+.horizontal-grid-line-1 {
+    background-image: url("/public/Grid/H-Grid-line.svg");
+    height: 1px;
+    width: 100%;
+    z-index: 1;
+    top: 313.5px;
+    left: 0px;
+    position: absolute; 
+}
+
+.horizontal-grid-line-2 {
+    background-image: url("/public/Grid/H-Grid-line.svg");
+    height: 1px;
+    width: 100%;
+    z-index: 1;
+    top: 627.5px;
+    left: 0px;
+    position: absolute; 
+}
+
+.horizontal-grid-line-3 {
+    background-image: url("/public/Grid/H-Grid-line.svg");
+    height: 1px;
+    width: 100%;
+    z-index: 1;
+    top: 941.5px;
+    left: 0px;
+    position: absolute; 
+}
+
+.horizontal-grid-line-4 {
+    background-image: url("/public/Grid/H-Grid-line.svg");
+    height: 1px;
+    width: 100%;
+    z-index: 1;
+    top: 1255px;
+    left: 0px;
+    position: absolute; 
+}
+
+.horizontal-grid-line-5 {
+    background-image: url("/public/Grid/H-Grid-line.svg");
+    height: 1px;
+    width: 100%;
+    z-index: 1;
+    top: 1569.5px;
+    left: 0px;
+    position: absolute; 
+}
+
+
+.vertical-grid-line-1 {
+    background-image: url("/public/Grid/V-Grid-line.svg");
+    height: 100%;
+    width: 1px;
+    z-index: 1;
+    top: 0px;
+    left: 17.5px;
+    position: absolute; 
+}
+
+.vertical-grid-line-2 {
+    background-image: url("/public/Grid/V-Grid-line.svg");
+    height: 100%;
+    width: 1px;
+    z-index: 1;
+    top: 0px;
+    left: 331.5px;
+    position: absolute; 
+}
+
+.vertical-grid-line-3 {
+    background-image: url("/public/Grid/V-Grid-line.svg");
+    height: 100%;
+    width: 1px;
+    z-index: 1;
+    top: 0px;
+    left: 645.5px;
+    position: absolute; 
+}
+
+.vertical-grid-line-4 {
+    background-image: url("/public/Grid/V-Grid-line.svg");
+    height: 100%;
+    width: 1px;
+    z-index: 1;
+    top: 0px;
+    left: 959.5px;
+    position: absolute; 
+}
+
+.vertical-grid-line-5 {
+    background-image: url("/public/Grid/V-Grid-line.svg");
+    height: 100%;
+    width: 1px;
+    z-index: 1;
+    top: 0px;
+    left: 1273.5px;
+    position: absolute; 
+}
+
+.vertical-grid-line-6 {
+    background-image: url("/public/Grid/V-Grid-line.svg");
+    height: 100%;
+    width: 1px;
+    z-index: 1;
+    top: 0px;
+    left: 1587.5px;
+    position: absolute; 
+}
+
+.vertical-grid-line-7 {
+    background-image: url("/public/Grid/V-Grid-line.svg");
+    height: 100%;
+    width: 1px;
+    z-index: 1;
+    top: 0px;
+    left: 1901.5px;
+    position: absolute; 
+}
+
+.examples-heading {
+    height: 50px;
+    width: 636px;
+    z-index: 2;
+    top: 300px;
+    left: 36px;
+    position: absolute; 
+    font-size: 150px;
+    font-family: 'Formular';
+    color: #000f38;
+    text-align: left;
+}
+
+.example-1-heading {
+    height: 31px;
+    width: 247px;
+    z-index: 2;
+    top: 577.8px;
+    left: 36px;
+    position: absolute; 
+    font-size: 24px;
+    font-family: 'Formular';
+    color: #000f38;
+    text-align: left;
+}
+
+.example-1-text {
+    font-family: Formular;
+    font-size: 24px;
+    color: #000F38;
+    letter-spacing: 0;
+    line-height: 31px;
+    height: 62px;
+    width: 435px;
+    z-index: 2;
+    top: 795px;
+    left: 37.25px;
+    position: absolute; 
+}
+
+.example-1-subtext {
+    font-family: Formular;
+    font-size: 24px;
+    color: #787878;
+    letter-spacing: 0;
+    line-height: 31px;
+    height: 349px;
+    width: 432px;
+    z-index: 2;
+    top: 881px;
+    left: 39.25px;
+    position: absolute; 
+}
+
+.example-heading-2 {
+    height: 31px;
+    width: 177px;
+    z-index: 2;
+    top: 577.8px;
+    left: 663.5px;
+    position: absolute; 
+    font-size: 24px;
+    font-family: 'Formular';
+    color: #787878;
+    text-align: left;
+}
+
+.example-heading-3 {
+    height: 31px;
+    width: 55px;
+    z-index: 2;
+    top: 577.8px;
+    left: 1291px;
+    position: absolute; 
+    font-size: 24px;
+    font-family: 'Formular';
+    color: #787878;
+    text-align: left;
+}
+
+.line4 {
+    width: 100%;
+    top: 786.5px;
+    left: 17.5px;
+    position: absolute; 
+    font-size: 150px;
+    font-family: 'Formular';
+    color: #000f38;
+    text-align: left;
+}
+
+.information-text {
+    font-family: Formular;
+    font-size: 24px;
+    color: #000F38;
+    letter-spacing: 0;
+    line-height: 31px;
+    text-align: left;
+    height: 31px;
+    width: 1559px;
+    z-index: 2;
+    top: 1396.5px;
+    left: 36px;
+    position: absolute;
+}
+
+.code-section {
+    background-image: url("/public/code-section.svg");
+    height: 325px;
+    width: 592.25px;
+    z-index: 2;
+    top: 805.38px;
+    left: 663.75px;
+    position: absolute;
+}
+
+.example-rectangle {
+    background-color: #FFFFFF;
+    height: 468px;
+    z-index: 2;
+    width: 1884px;
+    top: 787px;
+    left: 18px;
+    position: absolute;
+}

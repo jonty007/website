@@ -1,0 +1,212 @@
+.about-container {
+    height: 1570px;
+    width: 1920px;
+    z-index: 1;
+    top: 6594px;
+    left: 0px;
+    position: absolute;
+    background-color: #000F38;
+}
+
+.horizontal-grid-line-1 {
+    background-image: url("/public/Grid/H-Grid-line.svg");
+    height: 1px;
+    width: 100%;
+    z-index: 1;
+    top: 313.5px;
+    left: 0px;
+    position: absolute; 
+    opacity: 0.3;
+}
+
+.horizontal-grid-line-2 {
+    background-image: url("/public/Grid/H-Grid-line.svg");
+    height: 1px;
+    width: 100%;
+    z-index: 1;
+    top: 627.5px;
+    left: 0px;
+    position: absolute; 
+    opacity: 0.3;
+}
+
+.horizontal-grid-line-3 {
+    background-image: url("/public/Grid/H-Grid-line.svg");
+    height: 1px;
+    width: 100%;
+    z-index: 1;
+    top: 941.5px;
+    left: 0px;
+    position: absolute; 
+    opacity: 0.3;
+}
+
+.horizontal-grid-line-4 {
+    background-image: url("/public/Grid/H-Grid-line.svg");
+    height: 1px;
+    width: 100%;
+    z-index: 1;
+    top: 1255px;
+    left: 0px;
+    position: absolute; 
+    opacity: 0.3;
+}
+
+.horizontal-grid-line-5 {
+    background-image: url("/public/Grid/H-Grid-line.svg");
+    height: 1px;
+    width: 100%;
+    z-index: 1;
+    top: 1569.5px;
+    left: 0px;
+    position: absolute;
+    opacity: 0.3; 
+}
+
+
+.vertical-grid-line-1 {
+    background-image: url("/public/Grid/V-Grid-line.svg");
+    height: 100%;
+    width: 1px;
+    z-index: 1;
+    top: 0px;
+    left: 17.5px;
+    position: absolute; 
+    opacity: 0.3;
+}
+
+.vertical-grid-line-2 {
+    background-image: url("/public/Grid/V-Grid-line.svg");
+    height: 100%;
+    width: 1px;
+    z-index: 1;
+    top: 0px;
+    left: 331.5px;
+    position: absolute; 
+    opacity: 0.3;
+}
+
+.vertical-grid-line-3 {
+    background-image: url("/public/Grid/V-Grid-line.svg");
+    height: 100%;
+    width: 1px;
+    z-index: 1;
+    top: 0px;
+    left: 645.5px;
+    position: absolute; 
+    opacity: 0.3;
+}
+
+.vertical-grid-line-4 {
+    background-image: url("/public/Grid/V-Grid-line.svg");
+    height: 100%;
+    width: 1px;
+    z-index: 1;
+    top: 0px;
+    left: 959.5px;
+    position: absolute; 
+    opacity: 0.3;
+}
+
+.vertical-grid-line-5 {
+    background-image: url("/public/Grid/V-Grid-line.svg");
+    height: 100%;
+    width: 1px;
+    z-index: 1;
+    top: 0px;
+    left: 1273.5px;
+    position: absolute; 
+    opacity: 0.3;
+}
+
+.vertical-grid-line-6 {
+    background-image: url("/public/Grid/V-Grid-line.svg");
+    height: 100%;
+    width: 1px;
+    z-index: 1;
+    top: 0px;
+    left: 1587.5px;
+    position: absolute; 
+    opacity: 0.3;
+}
+
+.vertical-grid-line-7 {
+    background-image: url("/public/Grid/V-Grid-line.svg");
+    height: 100%;
+    width: 1px;
+    z-index: 1;
+    top: 0px;
+    left: 1901.5px;
+    position: absolute; 
+    opacity: 0.3;
+}
+
+.about-heading {
+    font-family: Formular;
+    font-size: 150px;
+    color: #FFFFFF;
+    letter-spacing: -6.38px;
+    line-height: 50px;
+    width: 405px;
+    z-index: 1;
+    top: 404px;
+    left: 36px;
+    position: absolute; 
+    text-align: left;
+}
+
+.text-1 {
+    font-family: Formular;
+    font-size: 32px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    width: 55%;
+    z-index: 1;
+    top: 527px;
+    left: 36px;
+    position: absolute; 
+    text-align: left;
+}
+
+.text-2 {
+    font-family: Formular;
+    font-size: 32px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    width: 60%;
+    z-index: 1;
+    top: 583px;
+    left: 36px;
+    position: absolute; 
+    text-align: left;
+}
+
+.cv-1 {
+    background-image: url("/public/cv.svg");
+    width: 33%;
+    height: 33%;
+    z-index: 1;
+    top: 770px;
+    left: 18px;
+    position: absolute; 
+}
+
+.cv-2 {
+    background-image: url("/public/cv.svg");
+    width: 33%;
+    height: 33%;
+    z-index: 1;
+    top: 770px;
+    left: 646px;
+    position: absolute; 
+}
+
+.cv-3 {
+    background-image: url("/public/cv.svg");
+    width: 33%;
+    height: 33%;
+    z-index: 1;
+    top: 770px;
+    left: 1274px;
+    position: absolute; 
+}

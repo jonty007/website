@@ -15,6 +15,8 @@ import { ReactComponent as Medium } from "./social/medium.svg";
 import BasicTabs from "./tabs";
 import Features from "./Features";
 import Pricing from "./Pricing";
+import Examples from "./Examples";
+import About from "./About";
 
 function App() {
   return (
@@ -67,6 +69,8 @@ function App() {
       </Box>
       <Features />
       <Pricing />
+      <Examples />
+      <About />
     </div>
   );
 }
