@@ -46,48 +46,30 @@ export default function BasicTabs() {
   };
 
   return (
-    <Box sx={{ width: '100%' }} className='ExamplesBoxContent'>
+    <Box sx={{ width: '100%', paddingTop: '230px' }} className='ExamplesBoxContent'>
       <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
-        <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">
+        <Tabs value={value} onChange={handleChange} aria-label="basic tabs example" variant="fullWidth">
           <Tab label="Non-Fungible tokens" {...a11yProps(0)} />
           <Tab label="Fungible Token" {...a11yProps(1)} />
           <Tab label="Chat" {...a11yProps(2)} />
         </Tabs>
       </Box>
       <TabPanel value={value} index={0}>
-        <Grid container>
-          <Grid item xs={4}>
-            <h3>
-              How to create Non-Fungible tokens
-              NFTs) on Bitcoin Computer
-            </h3>
-            <p>
-              A non-fungible token is an object
-              that has some state. In the example
-              below the entire state is stored in a
-              single property state. The token has
-              a function setState to update the
-              state and a function send to assign a
-              new owner.
-            </p>
+        <Grid container sx={{ zIndex: 3 }}>
+          <Grid item xs={4} className="infoGridExample">
+            <Box className="example-1-text-tab">
+              How to create Non-Fungible tokens NFTs) on Bitcoin Computer
+            </Box>
+            <Box className="example-1-subtext-tab">
+              A non-fungible token is an object that has some state. In the example
+              below the entire state is stored in a single property state. The token
+              has a function setState to update the state and a function send to
+              assign a new owner.
+            </Box>
           </Grid>
           <Grid item xs={4}>
-            <pre>
-              <code>{
-                `class Token {
-                  constructor(state) {
-                  this.state = state
-                }
-                setState(state) {
-                  this.state = state
-                }
-                send(to) {
-                  this._owners = [to]
-
-                }
-              }`}
-              </code>
-            </pre>
+            {/* <Box className="example-rectangle" /> */}
+            <Box className="code-section" />
           </Grid>
           <Grid item xs={4}></Grid>
         </Grid>

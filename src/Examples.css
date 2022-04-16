@@ -14,7 +14,7 @@
     z-index: 1;
     top: 313.5px;
     left: 0px;
-    position: absolute; 
+    position: absolute;
 }
 
 .horizontal-grid-line-2 {
@@ -24,7 +24,7 @@
     z-index: 1;
     top: 627.5px;
     left: 0px;
-    position: absolute; 
+    position: absolute;
 }
 
 .horizontal-grid-line-3 {
@@ -34,7 +34,7 @@
     z-index: 1;
     top: 941.5px;
     left: 0px;
-    position: absolute; 
+    position: absolute;
 }
 
 .horizontal-grid-line-4 {
@@ -44,7 +44,7 @@
     z-index: 1;
     top: 1255px;
     left: 0px;
-    position: absolute; 
+    position: absolute;
 }
 
 .horizontal-grid-line-5 {
@@ -54,7 +54,17 @@
     z-index: 1;
     top: 1569.5px;
     left: 0px;
-    position: absolute; 
+    position: absolute;
+}
+
+.horizontal-grid-line-6 {
+    background-image: url("/public/Grid/H-Grid-line.svg");
+    height: 1px;
+    width: 100%;
+    z-index: 1;
+    top: 782px;
+    left: 0px;
+    position: absolute;
 }
 
 
@@ -65,7 +75,7 @@
     z-index: 1;
     top: 0px;
     left: 17.5px;
-    position: absolute; 
+    position: absolute;
 }
 
 .vertical-grid-line-2 {
@@ -75,7 +85,7 @@
     z-index: 1;
     top: 0px;
     left: 331.5px;
-    position: absolute; 
+    position: absolute;
 }
 
 .vertical-grid-line-3 {
@@ -85,7 +95,7 @@
     z-index: 1;
     top: 0px;
     left: 645.5px;
-    position: absolute; 
+    position: absolute;
 }
 
 .vertical-grid-line-4 {
@@ -95,7 +105,7 @@
     z-index: 1;
     top: 0px;
     left: 959.5px;
-    position: absolute; 
+    position: absolute;
 }
 
 .vertical-grid-line-5 {
@@ -105,7 +115,7 @@
     z-index: 1;
     top: 0px;
     left: 1273.5px;
-    position: absolute; 
+    position: absolute;
 }
 
 .vertical-grid-line-6 {
@@ -115,7 +125,7 @@
     z-index: 1;
     top: 0px;
     left: 1587.5px;
-    position: absolute; 
+    position: absolute;
 }
 
 .vertical-grid-line-7 {
@@ -125,7 +135,7 @@
     z-index: 1;
     top: 0px;
     left: 1901.5px;
-    position: absolute; 
+    position: absolute;
 }
 
 .examples-heading {
@@ -134,7 +144,7 @@
     z-index: 2;
     top: 300px;
     left: 36px;
-    position: absolute; 
+    position: absolute;
     font-size: 150px;
     font-family: 'Formular';
     color: #000f38;
@@ -147,7 +157,7 @@
     z-index: 2;
     top: 577.8px;
     left: 36px;
-    position: absolute; 
+    position: absolute;
     font-size: 24px;
     font-family: 'Formular';
     color: #000f38;
@@ -165,7 +175,64 @@
     z-index: 2;
     top: 795px;
     left: 37.25px;
-    position: absolute; 
+    position: absolute;
+}
+
+.example-1-text-tab {
+    font-family: Formular;
+    font-size: 24px;
+    color: #000F38;
+    letter-spacing: 0;
+    line-height: 31px;
+    height: 62px;
+    width: 435px;
+    z-index: 2;
+    top: 100px;
+    /* left: 37.25px; */
+    position: relative;
+}
+
+.example-1-subtext-tab {
+    font-family: 'Formular';
+    font-size: 24px;
+    color: #787878;
+    letter-spacing: 0;
+    line-height: 31px;
+    height: 349px;
+    width: 432px;
+    z-index: 2;
+    top: 100px;
+    /* left: 39.25px; */
+    position: relative;
+}
+
+.examples-heading-tab {
+    height: 50px;
+    width: 636px;
+    z-index: 2;
+    /* top: 300px; */
+    /* left: 36px; */
+    /* position: relative;  */
+    font-size: 150px;
+    font-family: 'Formular';
+    color: #000f38;
+    text-align: left;
+    padding-top: 300px;
+}
+
+.infoGridExample {
+    margin-top: 130px !important;
+    background-color: white;
+    z-index: 3;
+    /* border: #dfdfdf 1px solid; */
+    padding-bottom: 60px !important;
+    padding-left: 10px !important;
+    /* margin-left: -6px !important; */
+
+}
+
+.tabPanelPadding {
+    padding: 24px 20px;
 }
 
 .example-1-subtext {
@@ -179,7 +246,7 @@
     z-index: 2;
     top: 881px;
     left: 39.25px;
-    position: absolute; 
+    position: absolute;
 }
 
 .example-heading-2 {
@@ -188,7 +255,7 @@
     z-index: 2;
     top: 577.8px;
     left: 663.5px;
-    position: absolute; 
+    position: absolute;
     font-size: 24px;
     font-family: 'Formular';
     color: #787878;
@@ -201,7 +268,7 @@
     z-index: 2;
     top: 577.8px;
     left: 1291px;
-    position: absolute; 
+    position: absolute;
     font-size: 24px;
     font-family: 'Formular';
     color: #787878;
@@ -212,7 +279,7 @@
     width: 100%;
     top: 786.5px;
     left: 17.5px;
-    position: absolute; 
+    position: absolute;
     font-size: 150px;
     font-family: 'Formular';
     color: #000f38;
@@ -242,6 +309,7 @@
     top: 805.38px;
     left: 663.75px;
     position: absolute;
+    background-repeat: no-repeat;
 }
 
 .example-rectangle {
