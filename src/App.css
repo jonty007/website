@@ -158,6 +158,52 @@
   color: #000f38;
 }
 
+.contact-container {
+  height: 320px;
+  width: 1920px;
+  z-index: 1;
+  top: 8164px;
+  left: 0px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0046ff;
+}
+
+.contact-email-wrapper {
+  text-align: left;
+}
+
+.contact-email-wrapper p {
+  padding-left: 56%;
+}
+
+.contact-email-wrapper-first {
+  font-size: 24px;
+  color: #787878;
+}
+
+.contact-email-wrapper-second {
+  font-size: 24px;
+  color: white;
+}
+
+.social-links {
+  display: flex;
+  align-items: center;
+}
+
+.social-links svg {
+  margin: 16px;
+}
+
+.social-links p {
+  color: #787878;
+  font-size: 12px;
+  padding-left: 16px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
