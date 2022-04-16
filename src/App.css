@@ -200,7 +200,7 @@
 
 .social-links p {
   color: #787878;
-  font-size: 12px;
+  font-size: 14px;
   padding-left: 16px;
 }
 
@@ -213,3 +213,136 @@
     transform: rotate(360deg);
   }
 }
+
+/* .horizontal-grid-line-1 {
+  background-image: url("/public/Grid/H-Grid-line.svg");
+  height: 1px;
+  width: 100%;
+  z-index: 1;
+  top: 313.5px;
+  left: 0px;
+  position: absolute;
+  opacity: 0.3;
+}
+
+.horizontal-grid-line-2 {
+  background-image: url("/public/Grid/H-Grid-line.svg");
+  height: 1px;
+  width: 100%;
+  z-index: 1;
+  top: 627.5px;
+  left: 0px;
+  position: absolute;
+  opacity: 0.3;
+}
+
+.horizontal-grid-line-3 {
+  background-image: url("/public/Grid/H-Grid-line.svg");
+  height: 1px;
+  width: 100%;
+  z-index: 1;
+  top: 941.5px;
+  left: 0px;
+  position: absolute;
+  opacity: 0.3;
+}
+
+.horizontal-grid-line-4 {
+  background-image: url("/public/Grid/H-Grid-line.svg");
+  height: 1px;
+  width: 100%;
+  z-index: 1;
+  top: 1255px;
+  left: 0px;
+  position: absolute;
+  opacity: 0.3;
+}
+
+.horizontal-grid-line-5 {
+  background-image: url("/public/Grid/H-Grid-line.svg");
+  height: 1px;
+  width: 100%;
+  z-index: 1;
+  top: 1569.5px;
+  left: 0px;
+  position: absolute;
+  opacity: 0.3;
+}
+
+
+.vertical-grid-line-1 {
+  background-image: url("/public/Grid/V-Grid-line.svg");
+  height: 100%;
+  width: 1px;
+  z-index: 1;
+  top: 0px;
+  left: 17.5px;
+  position: absolute;
+  opacity: 0.3;
+}
+
+.vertical-grid-line-2 {
+  background-image: url("/public/Grid/V-Grid-line.svg");
+  height: 100%;
+  width: 1px;
+  z-index: 1;
+  top: 0px;
+  left: 331.5px;
+  position: absolute;
+  opacity: 0.3;
+}
+
+.vertical-grid-line-3 {
+  background-image: url("/public/Grid/V-Grid-line.svg");
+  height: 100%;
+  width: 1px;
+  z-index: 1;
+  top: 0px;
+  left: 645.5px;
+  position: absolute;
+  opacity: 0.3;
+}
+
+.vertical-grid-line-4 {
+  background-image: url("/public/Grid/V-Grid-line.svg");
+  height: 100%;
+  width: 1px;
+  z-index: 1;
+  top: 0px;
+  left: 959.5px;
+  position: absolute;
+  opacity: 0.3;
+}
+
+.vertical-grid-line-5 {
+  background-image: url("/public/Grid/V-Grid-line.svg");
+  height: 100%;
+  width: 1px;
+  z-index: 1;
+  top: 0px;
+  left: 1273.5px;
+  position: absolute;
+  opacity: 0.3;
+}
+
+.vertical-grid-line-6 {
+  background-image: url("/public/Grid/V-Grid-line.svg");
+  height: 100%;
+  width: 1px;
+  z-index: 1;
+  top: 0px;
+  left: 1587.5px;
+  position: absolute;
+  opacity: 0.3;
+}
+
+.vertical-grid-line-7 {
+  background-image: url("/public/Grid/V-Grid-line.svg");
+  height: 100%;
+  width: 1px;
+  z-index: 1;
+  top: 0px;
+  left: 1901.5px;
+  position: absolute;
+  opacity: 0.3;
+} */
