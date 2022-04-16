@@ -3,7 +3,7 @@ import "./Examples.css";
 
 function Examples() {
   return (
-    <Box className="examples-container">
+    <Box className="examples-container" id="examples">
       <Box className="horizontal-grid-line-1" />
       <Box className="horizontal-grid-line-2" />
       <Box className="horizontal-grid-line-3" />

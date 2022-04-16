@@ -19,11 +19,31 @@ import Examples from "./Examples";
 import About from "./About";
 import Footer from "./Footer";
 import Introduction from "./Introduction";
+import { ReactComponent as ArrowLink } from './social/arrow.svg'
 
 function App() {
   return (
     <div className="App">
-      <BitcoinHeader className="header" />
+      <header className="header" >
+        <Grid container>
+          <Grid item xs={3} sx={{ padding: "20px", textAlign: "left" }}>
+            <img src="logo/BitcoinComputer-Logo.png" height="40px" />
+          </Grid>
+          <Grid item xs={9} className="navigation">
+            <nav>
+              <a href="#features">Features</a>
+              <a href="#pricing">Pricing</a>
+              <a href="#examples">Examples</a>
+              <a href="https://docs.bitcoincomputer.io" target="_blank">
+                Docs
+                <ArrowLink/>
+              </a>
+              <a href="#about">About</a>
+            </nav>
+          </Grid>
+        </Grid>
+      </header>
+      {/* <BitcoinHeader className="header" /> */}
       <Introduction />
       <Features />
       <Pricing />

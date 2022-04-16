@@ -8,7 +8,7 @@ export interface FeatureProps {
 
 function Feature(props: FeatureProps) {
   return (
-    <Box>
+    <Box id="features">
       <Box className="featureDot" />
       <Box className="featureHeading">{props.heading}</Box>
       <Box className="featureText">{props.text}</Box>
