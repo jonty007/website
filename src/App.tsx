@@ -4,7 +4,7 @@ import * as React from "react";
 import "./App.css";
 import Grid from "@mui/material/Grid";
 import Box from "@mui/material/Box";
-import { ReactComponent as Twitter } from "./social/twitter.svg";
+import { ReactComponent as BitcoinHeader } from "./social/header.svg";
 import { ReactComponent as Telegram } from "./social/telegram.svg";
 import { ReactComponent as YouTube } from "./social/youtube.svg";
 import { ReactComponent as Discord } from "./social/discord.svg";
@@ -23,24 +23,7 @@ import Introduction from "./Introduction";
 function App() {
   return (
     <div className="App">
-      <header>
-        <Grid container>
-          <Grid item xs={3} sx={{ padding: "20px", textAlign: "left" }}>
-            <img src="logo/BitcoinComputer-Logo.png" height="40px" />
-          </Grid>
-          <Grid item xs={9} className="navigation">
-            <nav>
-              <a href="#features">Features</a>
-              <a href="#pricing">Pricing</a>
-              <a href="#examples">Examples</a>
-              <a href="https://docs.bitcoincomputer.io" target="_blank">
-                Docs
-              </a>
-              <a href="#about">About</a>
-            </nav>
-          </Grid>
-        </Grid>
-      </header>
+      <BitcoinHeader className="header" />
       <Introduction />
       <Features />
       <Pricing />
