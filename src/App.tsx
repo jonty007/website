@@ -17,6 +17,7 @@ import Features from "./Features";
 import Pricing from "./Pricing";
 import Examples from "./Examples";
 import About from "./About";
+import Footer from "./Footer";
 
 function App() {
   return (
@@ -71,6 +72,7 @@ function App() {
       <Pricing />
       <Examples />
       <About />
+      <Footer />
     </div>
   );
 }
