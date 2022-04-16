@@ -15,7 +15,7 @@
     z-index: 1;
     top: 313.5px;
     left: 0px;
-    position: absolute; 
+    position: absolute;
     opacity: 0.3;
 }
 
@@ -26,7 +26,7 @@
     z-index: 1;
     top: 627.5px;
     left: 0px;
-    position: absolute; 
+    position: absolute;
     opacity: 0.3;
 }
 
@@ -37,7 +37,7 @@
     z-index: 1;
     top: 941.5px;
     left: 0px;
-    position: absolute; 
+    position: absolute;
     opacity: 0.3;
 }
 
@@ -48,7 +48,7 @@
     z-index: 1;
     top: 1255px;
     left: 0px;
-    position: absolute; 
+    position: absolute;
     opacity: 0.3;
 }
 
@@ -60,7 +60,7 @@
     top: 1569.5px;
     left: 0px;
     position: absolute;
-    opacity: 0.3; 
+    opacity: 0.3;
 }
 
 
@@ -71,7 +71,7 @@
     z-index: 1;
     top: 0px;
     left: 17.5px;
-    position: absolute; 
+    position: absolute;
     opacity: 0.3;
 }
 
@@ -82,7 +82,7 @@
     z-index: 1;
     top: 0px;
     left: 331.5px;
-    position: absolute; 
+    position: absolute;
     opacity: 0.3;
 }
 
@@ -93,7 +93,7 @@
     z-index: 1;
     top: 0px;
     left: 645.5px;
-    position: absolute; 
+    position: absolute;
     opacity: 0.3;
 }
 
@@ -104,7 +104,7 @@
     z-index: 1;
     top: 0px;
     left: 959.5px;
-    position: absolute; 
+    position: absolute;
     opacity: 0.3;
 }
 
@@ -115,7 +115,7 @@
     z-index: 1;
     top: 0px;
     left: 1273.5px;
-    position: absolute; 
+    position: absolute;
     opacity: 0.3;
 }
 
@@ -126,7 +126,7 @@
     z-index: 1;
     top: 0px;
     left: 1587.5px;
-    position: absolute; 
+    position: absolute;
     opacity: 0.3;
 }
 
@@ -137,7 +137,7 @@
     z-index: 1;
     top: 0px;
     left: 1901.5px;
-    position: absolute; 
+    position: absolute;
     opacity: 0.3;
 }
 
@@ -151,7 +151,7 @@
     z-index: 1;
     top: 404px;
     left: 36px;
-    position: absolute; 
+    position: absolute;
     text-align: left;
 }
 
@@ -164,7 +164,7 @@
     z-index: 1;
     top: 527px;
     left: 36px;
-    position: absolute; 
+    position: absolute;
     text-align: left;
 }
 
@@ -177,7 +177,7 @@
     z-index: 1;
     top: 583px;
     left: 36px;
-    position: absolute; 
+    position: absolute;
     text-align: left;
 }
 
@@ -188,7 +188,8 @@
     z-index: 1;
     top: 770px;
     left: 18px;
-    position: absolute; 
+    position: absolute;
+    background-repeat: no-repeat;
 }
 
 .cv-2 {
@@ -198,7 +199,9 @@
     z-index: 1;
     top: 770px;
     left: 646px;
-    position: absolute; 
+    position: absolute;
+    background-repeat: no-repeat;
+
 }
 
 .cv-3 {
@@ -208,5 +211,7 @@
     z-index: 1;
     top: 770px;
     left: 1274px;
-    position: absolute; 
+    position: absolute;
+    background-repeat: no-repeat;
+
 }
