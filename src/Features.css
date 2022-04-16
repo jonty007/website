@@ -70,82 +70,13 @@
     position: absolute;  
 }
 
-.gly6 {
-    background-image: url("/public/gly/Gly-6.svg");
-    height: 157px;
-    width: 157px;
-    z-index: 1;
+.graph2 {
+    background-image: url("/public/Graph-2.svg");
     top: 785px;
-    left: 1745px;
+    left: 960px;
     position: absolute; 
-}
-
-.gly7 {
-    background-image: url("/public/gly/Gly-7.svg");
-    height: 157px;
-    width: 157px;
-    z-index: 1;
-    top: 942px;
-    left: 1745px;
-    position: absolute; 
-}
-
-.gly8 {
-    background-image: url("/public/gly/Gly-8.svg");
-    height: 157px;
-    width: 157px;
-    z-index: 1;
-    top: 1099.42px;
-    left: 1745px;
-    position: absolute; 
-}
-
-.gly9 {
-    background-image: url("/public/gly/Gly-9.svg");
-    height: 157px;
-    width: 157px;
-    z-index: 1;
-    top: 1255.92px;
-    left: 1745px;
-    position: absolute; 
-}
-
-.gly10 {
-    background-image: url("/public/gly/Gly-10.svg");
-    height: 157px;
-    width: 157px;
-    z-index: 1;
-    top: 1099.42px;
-    left: 1118px;
-    position: absolute; 
-}
-
-.gly11 {
-    background-image: url("/public/gly/Gly-11.svg");
-    height: 157px;
-    width: 157px;
-    z-index: 1;
-    top: 1255.92px;    
-    left: 1118px;
-    position: absolute; 
-}
-
-.gly12 {
-    background-image: url("/public/gly/Gly-12.svg");
-    height: 157px;
-    width: 157px;
-    z-index: 1;
-    top: 1413px;
-    left: 1118px;
-    position: absolute; 
-}
-
-.gly13 {
-    background-image: url("/public/gly/Gly-13.svg");
-    height: 157px;
-    width: 157px;
-    z-index: 1;
-    top: 1570.33px;
-    left: 1118px;
-    position: absolute; 
+    background-repeat: no-repeat;
+    z-index: 5;
+    width: 942px;
+    height: 1098.95px;
 }

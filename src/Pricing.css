@@ -183,32 +183,13 @@
     text-align: left;
 }
 
-.gly14 {
-    background-image: url("/public/gly/Gly-14.svg");
-    height: 157px;
-    width: 157px;
-    z-index: 1;
-    top: 785.5px;
+.graph3 {
+    background-image: url("/public/Graph-3.svg");
+    top: 785px;
     left: 1431px;
     position: absolute; 
-}
-
-.gly15 {
-    background-image: url("/public/gly/Gly-15.svg");
-    height: 314px;
-    width: 314px;
-    z-index: 1;
-    top: 942.5px;
-    left: 1588px;
-    position: absolute; 
-}
-
-.gly16 {
-    background-image: url("/public/gly/Gly-16.svg");
-    height: 78px;
-    width: 78px;
-    z-index: 1;
-    top: 943.5px;
-    left: 1510px;
-    position: absolute; 
+    background-repeat: no-repeat;
+    z-index: 2;
+    width: 489px;
+    height: 471px;
 }

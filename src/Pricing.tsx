@@ -28,9 +28,7 @@ function Pricing() {
       <Box className="pricing-explainer">
         Choose from three pricing options, switch anytime:
       </Box>
-      <Box className="gly14" />
-      <Box className="gly15" />
-      <Box className="gly16" />
+      <Box className="graph3" />
     </Box>
   );
 }

@@ -1,0 +1,57 @@
+
+.GridBGFirst {
+    background-image: url("/public/Grid/Grid-Module-6x6.svg");
+    height: 1884.5px;
+    width: 1920px;
+    top: 0;
+    left: 0;
+    position: absolute; 
+  }
+  
+  .TuringCompleteGraph1 {
+    background-image: url("/public/Turning-Complete-Graph.svg");
+    height: 1884.5px;
+    width: 1920px;
+    top: 0.5px;
+    left: 0;
+    position: absolute; 
+    background-repeat: no-repeat;
+  }
+  
+  .features {
+    height: 150px;
+    width: 582px;
+    z-index: 1;
+    top: 1544px;
+    left: 24.5px;
+    position: absolute; 
+    font-size: 150px;
+    font-family: 'Formular';
+    text-align: left;
+  }
+  
+  .headline {
+    height: 104px;
+    width: 592px;
+    z-index: 1;
+    top: 644px;
+    left: 350px;
+    position: absolute; 
+    font-size: 45px;
+    font-family: 'Formular';
+    text-align: left;
+    color: #000f38;
+  }
+  
+  .subHeading {
+    height: 124px;
+    width: 592px;
+    z-index: 1;
+    top: 769.25px;
+    left: 350px;
+    position: absolute; 
+    font-size: 24px;
+    font-family: 'Formular';
+    text-align: left;
+    color: #787878;
+  }

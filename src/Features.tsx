@@ -51,16 +51,7 @@ function Features() {
           You can deploy a node locally with one line of code thanks to Docker and we have instructions for how to deploy to AWS Fargate."
         />
       </Box>
-      <Box>
-        <Box className="gly6" />
-        <Box className="gly7" />
-        <Box className="gly8" />
-        <Box className="gly9" />
-        <Box className="gly10" />
-        <Box className="gly11" />
-        <Box className="gly12" />
-        <Box className="gly13" />
-      </Box>
+      <Box className="graph2" />
     </Box>
   );
 }

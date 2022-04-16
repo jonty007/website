@@ -18,6 +18,7 @@ import Pricing from "./Pricing";
 import Examples from "./Examples";
 import About from "./About";
 import Footer from "./Footer";
+import Introduction from "./Introduction";
 
 function App() {
   return (
@@ -40,34 +41,7 @@ function App() {
           </Grid>
         </Grid>
       </header>
-      <Box className="GridBGFirst">
-        <Box className="GridBGFirstWire1" />
-        <Box className="GridBGFirstWire2" />
-        <Box className="GridBGFirstWire3" />
-        <Box className="GridBGFirstWire4" />
-        <Box className="GridBGFirstWire5" />
-        <Box className="GridBGFirstWire6" />
-        <Box className="GridBGFirstWire7" />
-        <Box className="GridBGFirstGlyTurningCompl" />
-        <Box className="GridBGFirstGly1" />
-        <Box className="GridBGFirstGly2" />
-        <Box className="GridBGFirstGly3" />
-        <Box className="GridBGFirstGly4" />
-        <Box className="GridBGFirstGly5" />
-        <Box className="GridBGFirstGridCellSub1" />
-        <Box className="GridBGFirstGridCellSub2" />
-        <Box className="GridBGFirstGridCellSub3" />
-        <Box className="GridBGFirstGridCellSub4" />
-        <Box className="features">Features</Box>
-        <Box className="headline">
-          A Turing complete smart contract system for Bitcoin.
-        </Box>
-        <Box className="subHeading">
-          Build fungible and non-fungible tokens (NFTs), games, social networks,
-          exchanges, auctions, voting, office applications, artificial
-          intelligence, ... anything really.
-        </Box>
-      </Box>
+      <Introduction />
       <Features />
       <Pricing />
       <Examples />
