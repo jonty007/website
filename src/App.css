@@ -1,6 +1,5 @@
 * {
-  box-sizing: border-box;
-  /* border: 1px red solid !important; */
+  box-sizing: border-box !important;
 }
 .App {
   text-align: center;
