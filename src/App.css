@@ -89,10 +89,11 @@
 }
 
 .header {
-  position: relative;
-  z-index: 2;
+  position: fixed;
+  z-index: 6;
   background-color: white;
   border-bottom: #dfdfdf 2px solid;
+  width: 100%;
 }
 
 .header img {
