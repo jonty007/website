@@ -1,5 +1,6 @@
 import Box from "@mui/material/Box";
 import "./About.css";
+import Profile from "./Profile";
 
 function About() {
   return (
@@ -27,9 +28,27 @@ function About() {
         initially). Once invited a user can call post to send a message to the
         chat and invite other users.
       </Box>
-      <Box className="cv-1" />
-      <Box className="cv-2" />
-      <Box className="cv-3" />
+      <Box className="cv-1">
+        <Profile
+          name="Clemens Ley"
+          text="We are launching on Litecoin. In the future we want to support all currencies in the Bitcoin family. 
+          Between these blockchains, the Bitcoin Computer will have a maximum throughput of over 300 transactions per second. "
+        />
+      </Box>
+      <Box className="cv-2">
+        <Profile
+          name="Clemens Ley"
+          text="We are launching on Litecoin. In the future we want to support all currencies in the Bitcoin family. 
+          Between these blockchains, the Bitcoin Computer will have a maximum throughput of over 300 transactions per second. "
+        />
+      </Box>
+      <Box className="cv-3">
+        <Profile
+          name="Clemens Ley"
+          text="We are launching on Litecoin. In the future we want to support all currencies in the Bitcoin family. 
+          Between these blockchains, the Bitcoin Computer will have a maximum throughput of over 300 transactions per second. "
+        />
+      </Box>
     </Box>
   );
 }

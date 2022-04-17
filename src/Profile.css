@@ -1,0 +1,81 @@
+.profile-container {
+    height: 630px;
+    width: 630px;
+    z-index: 1;
+    position: absolute; 
+    background-color: #000F38;
+    text-align: left;
+}
+
+.profile-picture {
+    top: 18px;
+    left: 18px;
+    width: 141px;
+    height: 141px;
+    text-align: left;
+}
+
+.profile-name {
+    left: 18px;
+    top: 195px;
+    width: 195px;
+    height: 64px;
+    color: white;
+    font-family: Formular;
+    font-size: 32px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    text-align: left;
+    position: absolute;
+}
+
+.profile-text {
+    left: 18px;
+    top: 252px;
+    width: 435px;
+    height: 235px;
+    color: white;
+    font-family: Formular;
+    font-size: 24px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    line-height: 31px;
+    text-align: left;
+    position: absolute;
+}
+
+.social-1 {
+    background-image: url("/public/social/github.svg");
+    left: 18px;
+    top: 502px;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+}
+
+.social-2 {
+    background-image: url("/public/social/insta.svg");
+    left: 56px;
+    top: 502px;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+}
+
+.social-3 {
+    background-image: url("/public/social/linkedin.svg");
+    left: 94px;
+    top: 502px;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+}
+
+.social-4 {
+    background-image: url("/public/social/medium.svg");
+    left: 132px;
+    top: 502px;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+}

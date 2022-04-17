@@ -182,10 +182,9 @@
 }
 
 .cv-1 {
-    background-image: url("/public/cv.svg");
     width: 33%;
     height: 33%;
-    z-index: 1;
+    z-index: -1;
     top: 770px;
     left: 18px;
     position: absolute;
@@ -193,22 +192,19 @@
 }
 
 .cv-2 {
-    background-image: url("/public/cv.svg");
     width: 33%;
     height: 33%;
-    z-index: 1;
+    z-index: -1;
     top: 770px;
     left: 646px;
     position: absolute;
     background-repeat: no-repeat;
-
 }
 
 .cv-3 {
-    background-image: url("/public/cv.svg");
     width: 33%;
     height: 33%;
-    z-index: 1;
+    z-index: -1;
     top: 770px;
     left: 1274px;
     position: absolute;

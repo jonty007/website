@@ -4,9 +4,7 @@ import "./Pricing.css";
 function Pricing() {
   return (
     <Box>
-      <Box sx={{ backgroundColor: "#0046FF" }}>
-
-      </Box>
+      <Box sx={{ backgroundColor: "#0046FF" }}></Box>
       <Box className="pricing-container" id="pricing">
         <Box className="horizontal-grid-line-1" />
         <Box className="horizontal-grid-line-2" />
