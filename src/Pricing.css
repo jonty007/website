@@ -1,6 +1,6 @@
 .pricing-container {
     height: 1257.45px;
-    width: 1920px;
+    width: 100%;
     z-index: 1;
     top: 3767.5px;
     left: 0px;
@@ -54,8 +54,9 @@
     width: 1px;
     z-index: 1;
     top: 0px;
-    left: 17.5px;
-    position: absolute; 
+    /* left: 17.5px; */
+    left: 1%;
+    position: absolute;
 }
 
 .vertical-grid-line-2 {
@@ -64,8 +65,9 @@
     width: 1px;
     z-index: 1;
     top: 0px;
-    left: 331.5px;
-    position: absolute; 
+    /* left: 331.5px; */
+    left: 17.33%;
+    position: absolute;
 }
 
 .vertical-grid-line-3 {
@@ -74,8 +76,9 @@
     width: 1px;
     z-index: 1;
     top: 0px;
-    left: 645.5px;
-    position: absolute; 
+    /* left: 645.5px; */
+    left: 33.66%;
+    position: absolute;
 }
 
 .vertical-grid-line-4 {
@@ -84,8 +87,9 @@
     width: 1px;
     z-index: 1;
     top: 0px;
-    left: 959.5px;
-    position: absolute; 
+    /* left: 959.5px; */
+    left: 49.99%;
+    position: absolute;
 }
 
 .vertical-grid-line-5 {
@@ -94,8 +98,9 @@
     width: 1px;
     z-index: 1;
     top: 0px;
-    left: 1273.5px;
-    position: absolute; 
+    /* left: 1273.5px; */
+    left: 66.33%;
+    position: absolute;
 }
 
 .vertical-grid-line-6 {
@@ -104,8 +109,9 @@
     width: 1px;
     z-index: 1;
     top: 0px;
-    left: 1587.5px;
-    position: absolute; 
+    /* left: 1587.5px; */
+    left: 82.66%;
+    position: absolute;
 }
 
 .vertical-grid-line-7 {
@@ -114,8 +120,9 @@
     width: 1px;
     z-index: 1;
     top: 0px;
-    left: 1901.5px;
-    position: absolute; 
+    /* left: 1901.5px; */
+    left: 98.99%;
+    position: absolute;
 }
 
 .pricing-heading {
@@ -186,7 +193,7 @@
 .graph3 {
     background-image: url("/public/Graph-3.svg");
     top: 785px;
-    left: 1431px;
+    left: 74.1%;
     position: absolute; 
     background-repeat: no-repeat;
     z-index: 2;

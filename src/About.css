@@ -1,6 +1,6 @@
 .about-container {
     height: 1570px;
-    width: 1920px;
+    width: 100%;
     z-index: 1;
     top: 6594px;
     left: 0px;
@@ -70,7 +70,8 @@
     width: 1px;
     z-index: 1;
     top: 0px;
-    left: 17.5px;
+    /* left: 17.5px; */
+    left: 1%;
     position: absolute;
     opacity: 0.5;
 }
@@ -81,7 +82,8 @@
     width: 1px;
     z-index: 1;
     top: 0px;
-    left: 331.5px;
+    /* left: 331.5px; */
+    left: 17.33%;
     position: absolute;
     opacity: 0.5;
 }
@@ -92,7 +94,8 @@
     width: 1px;
     z-index: 1;
     top: 0px;
-    left: 645.5px;
+    /* left: 645.5px; */
+    left: 33.66%;
     position: absolute;
     opacity: 0.5;
 }
@@ -103,7 +106,8 @@
     width: 1px;
     z-index: 1;
     top: 0px;
-    left: 959.5px;
+    /* left: 959.5px; */
+    left: 49.99%;
     position: absolute;
     opacity: 0.5;
 }
@@ -114,7 +118,8 @@
     width: 1px;
     z-index: 1;
     top: 0px;
-    left: 1273.5px;
+    /* left: 1273.5px; */
+    left: 66.33%;
     position: absolute;
     opacity: 0.5;
 }
@@ -125,7 +130,8 @@
     width: 1px;
     z-index: 1;
     top: 0px;
-    left: 1587.5px;
+    /* left: 1587.5px; */
+    left: 82.66%;
     position: absolute;
     opacity: 0.5;
 }
@@ -136,7 +142,8 @@
     width: 1px;
     z-index: 1;
     top: 0px;
-    left: 1901.5px;
+    /* left: 1901.5px; */
+    left: 98.99%;
     position: absolute;
     opacity: 0.5;
 }
@@ -182,9 +189,10 @@
 }
 
 .cv-1 {
+    background-image: url("/public/cv.svg");
     width: 33%;
     height: 33%;
-    z-index: -1;
+    z-index: 1;
     top: 770px;
     left: 18px;
     position: absolute;
@@ -192,19 +200,22 @@
 }
 
 .cv-2 {
+    background-image: url("/public/cv.svg");
     width: 33%;
     height: 33%;
-    z-index: -1;
+    z-index: 1;
     top: 770px;
     left: 646px;
     position: absolute;
     background-repeat: no-repeat;
+
 }
 
 .cv-3 {
+    background-image: url("/public/cv.svg");
     width: 33%;
     height: 33%;
-    z-index: -1;
+    z-index: 1;
     top: 770px;
     left: 1274px;
     position: absolute;

@@ -5,6 +5,18 @@ import "./Features.css";
 function Features() {
   return (
     <Box className="featuresContainer">
+      <Box className="horizontal-grid-line-1" />
+      <Box className="horizontal-grid-line-2" />
+      <Box className="horizontal-grid-line-3" />
+      <Box className="horizontal-grid-line-4" />
+      <Box className="horizontal-grid-line-5" />
+      <Box className="vertical-grid-line-1" />
+      <Box className="vertical-grid-line-2" />
+      <Box className="vertical-grid-line-3" />
+      <Box className="vertical-grid-line-4" />
+      <Box className="vertical-grid-line-5" />
+      <Box className="vertical-grid-line-6" />
+      <Box className="vertical-grid-line-7" />
       <Box className="feature1">
         <Feature
           heading="Easy to Use"
