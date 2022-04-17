@@ -194,7 +194,7 @@
     height: 33%;
     z-index: 1;
     top: 770px;
-    left: 18px;
+    left: 3%;
     position: absolute;
     background-repeat: no-repeat;
 }
@@ -205,7 +205,7 @@
     height: 33%;
     z-index: 1;
     top: 770px;
-    left: 646px;
+    left: 35%;
     position: absolute;
     background-repeat: no-repeat;
 
@@ -217,7 +217,7 @@
     height: 33%;
     z-index: 1;
     top: 770px;
-    left: 1274px;
+    left: 68%;
     position: absolute;
     background-repeat: no-repeat;
 }
