@@ -20,12 +20,12 @@ import Examples from "./Examples";
 import About from "./About";
 import Footer from "./Footer";
 import Introduction from "./Introduction";
-import { ReactComponent as ArrowLink } from './social/arrow.svg'
+import { ReactComponent as ArrowLink } from "./social/arrow.svg";
 
 function App() {
   return (
     <div className="App">
-      <header className="header" >
+      <header className="header">
         <Grid container>
           <Grid item xs={3} sx={{ padding: "20px", textAlign: "left" }}>
             <img src="logo/BitcoinComputer-Logo.png" height="40px" />
@@ -51,7 +51,7 @@ function App() {
       <Examples />
       <About />
       {/* <Footer /> */}
-      <Box className='contact-container'>
+      <Box className="contact-container">
         <Box className="vertical-grid-line-1" />
         <Box className="vertical-grid-line-2" />
         <Box className="vertical-grid-line-3" />
@@ -59,25 +59,48 @@ function App() {
         <Box className="vertical-grid-line-5" />
         <Box className="vertical-grid-line-6" />
         <Box className="vertical-grid-line-7" />
-        <Grid container rowSpacing={1} columnSpacing={{ xs: 1 }} className='ContentBox ColorWhite'>
+        <Grid
+          container
+          rowSpacing={1}
+          columnSpacing={{ xs: 1 }}
+          className="ContentBox ColorWhite"
+        >
           <Grid item xs={4} className="contact-email-wrapper">
             <p className="contact-email-wrapper-first">Get in touch</p>
-            <p className="contact-email-wrapper-second">hello@bitcoincomputer.io</p>
+            <p className="contact-email-wrapper-second">
+              <b>hello@bitcoincomputer.io</b>
+            </p>
           </Grid>
           <Grid item xs={4} className="social-links">
             <Grid item xs={2}></Grid>
             <Grid item xs={8}>
               <a href="www.twitter.com" target="_blank">
-                <Twitter height="50px" width="50px" viewBox="0 0 26 26"></Twitter>
+                <Twitter
+                  height="50px"
+                  width="50px"
+                  viewBox="0 0 26 26"
+                ></Twitter>
               </a>
               <a href="www.twitter.com" target="_blank">
-                <Telegram height="50px" width="50px" viewBox="0 0 26 26"></Telegram>
+                <Telegram
+                  height="50px"
+                  width="50px"
+                  viewBox="0 0 26 26"
+                ></Telegram>
               </a>
               <a href="www.twitter.com" target="_blank">
-                <YouTube height="50px" width="50px" viewBox="0 0 26 26"></YouTube>
+                <YouTube
+                  height="50px"
+                  width="50px"
+                  viewBox="0 0 26 26"
+                ></YouTube>
               </a>
               <a href="www.twitter.com" target="_blank">
-                <Discord height="50px" width="50px" viewBox="0 0 26 26"></Discord>
+                <Discord
+                  height="50px"
+                  width="50px"
+                  viewBox="0 0 26 26"
+                ></Discord>
               </a>
               <a href="www.twitter.com" target="_blank">
                 <GitHub height="50px" width="50px" viewBox="0 0 26 26"></GitHub>
@@ -85,12 +108,9 @@ function App() {
             </Grid>
             <Grid item xs={2}></Grid>
           </Grid>
-          <Grid item xs={4} className="ColorWhite social-links">
-            <p>
-              Copyright © 2022 Bitcoin Computer. All rights reserved.
-            </p>
+          <Grid item xs={4} className="copyright">
+            <p>Copyright © 2022 Bitcoin Computer. All rights reserved.</p>
           </Grid>
-
         </Grid>
       </Box>
     </div>

@@ -184,7 +184,7 @@
 
 .contact-email-wrapper-first {
   font-size: 24px;
-  color: #787878;
+  color: #A7BFFF;
 }
 
 .contact-email-wrapper-second {
@@ -193,6 +193,13 @@
 }
 
 .social-links {
+  display: flex;
+  align-items: center;
+  color: #A7BFFF;
+}
+
+.copyright {
+  color: #A7BFFF;
   display: flex;
   align-items: center;
 }

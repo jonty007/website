@@ -1,9 +1,8 @@
 .profile-container {
     height: 630px;
-    width: 33.33%;
+    width: 55%;
     z-index: 1;
     position: absolute; 
-    background-color: #000F38;
     text-align: left;
 }
 
@@ -13,6 +12,7 @@
     width: 141px;
     height: 141px;
     text-align: left;
+    position: absolute;
 }
 
 .profile-name {
