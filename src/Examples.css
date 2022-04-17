@@ -2,7 +2,7 @@
     height: 1570px;
     width: 100%;
     z-index: 1;
-    top: 5023.95px;
+    top: 4978px;
     left: 0px;
     position: absolute;
 }
@@ -143,6 +143,18 @@
     /* left: 1901.5px; */
     left: 98.99%;
     position: absolute;
+}
+
+.docsLinkExamples {
+    text-decoration: underline;
+    color: #000F38;
+    font-size: 24px;
+}
+
+.docsLinkExamples:active, .docsLinkExamples:visited, .docsLinkExamples:focus {
+    text-decoration: underline;
+    color: #000F38;
+    font-size: 24px;
 }
 
 /* .examples-heading {

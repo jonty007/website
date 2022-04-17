@@ -46,7 +46,7 @@ export default function BasicTabs() {
   };
 
   return (
-    <Box sx={{ width: '100%', paddingTop: '230px' }} className='ExamplesBoxContent'>
+    <Box sx={{ width: '100%', paddingTop: '280px' }} className='ExamplesBoxContent'>
       <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
         <Tabs value={value} onChange={handleChange} aria-label="basic tabs example" variant="fullWidth">
           <Tab label="Non-Fungible tokens" {...a11yProps(0)} />

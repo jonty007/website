@@ -32,7 +32,7 @@ function App() {
                 rel="noreferrer"
               >
                 Docs
-                <ArrowLink />
+                <ArrowLink className="docsLink"/>
               </a>
               <a href="#about">About</a>
             </nav>
@@ -63,45 +63,45 @@ function App() {
           <Grid item xs={4} className="contact-email-wrapper">
             <p className="contact-email-wrapper-first">Get in touch</p>
             <p className="contact-email-wrapper-second">
-              <b>hello@bitcoincomputer.io</b>
+              <a href="mailto:hello@bitcoincomputer.io">hello@bitcoincomputer.io</a>
             </p>
           </Grid>
           <Grid item xs={4} className="social-links">
-            <Grid item xs={2}></Grid>
-            <Grid item xs={8}>
-              <a href="www.twitter.com" target="_blank">
+            <Grid item xs={1}></Grid>
+            <Grid item xs={10}>
+              <a href="https://www.twitter.com" target="_blank">
                 <Twitter
                   height="50px"
                   width="50px"
                   viewBox="0 0 26 26"
                 ></Twitter>
               </a>
-              <a href="www.twitter.com" target="_blank">
+              <a href="www.twitter.comhttps://www.twitter.com" target="_blank">
                 <Telegram
                   height="50px"
                   width="50px"
                   viewBox="0 0 26 26"
                 ></Telegram>
               </a>
-              <a href="www.twitter.com" target="_blank">
+              <a href="https://www.twitter.com" target="_blank">
                 <YouTube
                   height="50px"
                   width="50px"
                   viewBox="0 0 26 26"
                 ></YouTube>
               </a>
-              <a href="www.twitter.com" target="_blank">
+              <a href="https://www.twitter.com" target="_blank">
                 <Discord
                   height="50px"
                   width="50px"
                   viewBox="0 0 26 26"
                 ></Discord>
               </a>
-              <a href="www.twitter.com" target="_blank">
+              <a href="https://www.twitter.com" target="_blank">
                 <GitHub height="50px" width="50px" viewBox="0 0 26 26"></GitHub>
               </a>
             </Grid>
-            <Grid item xs={2}></Grid>
+            <Grid item xs={1}></Grid>
           </Grid>
           <Grid item xs={4} className="copyright">
             <p>Copyright © 2022 Bitcoin Computer. All rights reserved.</p>

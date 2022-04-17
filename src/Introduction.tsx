@@ -17,7 +17,7 @@ function Introduction() {
       <Box className="vertical-grid-line-6" />
       <Box className="vertical-grid-line-7" /> */}
       <Box className="TuringCompleteGraph1" />
-      <Box className="features">Features</Box>
+      <Box className="features" id="features">Features</Box>
       <Box className="headline">
         A Turing complete smart contract system for Bitcoin.
       </Box>

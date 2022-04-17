@@ -22,7 +22,7 @@ function Examples() {
       <ExampleTabs />
       <Box className="information-text">
         View the Bitcoin Computer Docs for More Examples and Tutorials:
-        docs.bitcoincomputer.io
+        <a href="https://docs.bitcoincomputer.io" target="_blank" className="docsLinkExamples">docs.bitcoincomputer.io</a>
       </Box>
       <Box className="line4" />
       {/* <Box className="example-heading-3">Chat</Box>

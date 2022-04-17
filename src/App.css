@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box !important;
 }
+
 .App {
   text-align: center;
 }
@@ -96,6 +97,11 @@
   width: 100%;
 }
 
+.docsLink {
+  height: 12px;
+  width: 20px;
+}
+
 .header img {
   padding: 10px;
   width: auto;
@@ -164,7 +170,7 @@
   height: 320px;
   width: 100%;
   z-index: 1;
-  top: 8164px;
+  top: 8114px;
   left: 0px;
   position: absolute;
   display: flex;
@@ -187,8 +193,17 @@
 }
 
 .contact-email-wrapper-second {
-  font-size: 24px;
+  font-size: 22px;
   color: white;
+}
+
+.contact-email-wrapper-second a,
+.contact-email-wrapper-second a:active,
+.contact-email-wrapper-second a:focus,
+.contact-email-wrapper-second a:visited {
+  text-decoration: none;
+  color: white;
+  font-size: 22px;
 }
 
 .social-links {
