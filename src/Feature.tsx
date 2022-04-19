@@ -9,8 +9,10 @@ export interface FeatureProps {
 function Feature(props: FeatureProps) {
   return (
     <Box>
-      <Box className="featureDot" />
-      <Box className="featureHeading">{props.heading}</Box>
+      <Box>
+        <img src="/feature-dot.png"></img>
+        <h3 className="featureHeading">{props.heading}</h3>
+      </Box>
       <Box className="featureText">{props.text}</Box>
     </Box>
   );

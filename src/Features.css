@@ -1,130 +1,20 @@
 .featuresContainer {
-    /* background-image: url("/public/Grid/Grid-Module-6x6.svg"); */
-    height: 1884px;
+    height: 184vh;
     width: 100%;
-    position:relative;
-}
-
-.horizontal-grid-line-1 {
-    background-image: url("/public/Grid/H-Grid-line.svg");
-    height: 1px;
-    width: 100%;
-    z-index: 1;
-    top: 313.5px;
-    left: 0px;
-    position: absolute;
-}
-
-.horizontal-grid-line-2 {
-    background-image: url("/public/Grid/H-Grid-line.svg");
-    height: 1px;
-    width: 100%;
-    z-index: 1;
-    top: 627.5px;
-    left: 0px;
-    position: absolute;
-}
-
-.horizontal-grid-line-3 {
-    background-image: url("/public/Grid/H-Grid-line.svg");
-    height: 1px;
-    width: 100%;
-    z-index: 1;
-    top: 941.5px;
-    left: 0px;
-    position: absolute;
-}
-
-.horizontal-grid-line-4 {
-    background-image: url("/public/Grid/H-Grid-line.svg");
-    height: 1px;
-    width: 100%;
-    z-index: 1;
-    top: 1255px;
-    left: 0px;
-    position: absolute;
-}
-
-.vertical-grid-line-1 {
-    background-image: url("/public/Grid/V-Grid-line.svg");
-    height: 100%;
-    width: 1px;
-    z-index: 1;
-    top: 0px;
-    /* left: 17.5px; */
-    left: 1%;
-    position: absolute;
-}
-
-.vertical-grid-line-2 {
-    background-image: url("/public/Grid/V-Grid-line.svg");
-    height: 100%;
-    width: 1px;
-    z-index: 1;
-    top: 0px;
-    /* left: 331.5px; */
-    left: 17.33%;
-    position: absolute;
-}
-
-.vertical-grid-line-3 {
-    background-image: url("/public/Grid/V-Grid-line.svg");
-    height: 100%;
-    width: 1px;
-    z-index: 1;
-    top: 0px;
-    /* left: 645.5px; */
-    left: 33.66%;
-    position: absolute;
-}
-
-.vertical-grid-line-4 {
-    background-image: url("/public/Grid/V-Grid-line.svg");
-    height: 100%;
-    width: 1px;
-    z-index: 1;
-    top: 0px;
-    /* left: 959.5px; */
-    left: 49.99%;
-    position: absolute;
-}
-
-.vertical-grid-line-5 {
-    background-image: url("/public/Grid/V-Grid-line.svg");
-    height: 100%;
-    width: 1px;
-    z-index: 1;
-    top: 0px;
-    /* left: 1273.5px; */
-    left: 66.33%;
-    position: absolute;
-}
-
-.vertical-grid-line-6 {
-    background-image: url("/public/Grid/V-Grid-line.svg");
-    height: 100%;
-    width: 1px;
-    z-index: 1;
-    top: 0px;
-    /* left: 1587.5px; */
-    left: 82.66%;
-    position: absolute;
-}
-
-.vertical-grid-line-7 {
-    background-image: url("/public/Grid/V-Grid-line.svg");
-    height: 100%;
-    width: 1px;
-    z-index: 1;
-    top: 0px;
-    /* left: 1901.5px; */
-    left: 98.99%;
-    position: absolute;
+    position: relative;
 }
 
 .feature {
-    height: 316px;
     z-index: 1;
+}
+
+.featuresGridWrapper {
+    padding: 0 1%;
+}
+
+.featuresGridItem {
+    padding: 1%;
+    height: 30.6vh;
 }
 
 .graph2 {

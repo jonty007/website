@@ -1,16 +1,14 @@
 .GridBGFirst {
   /* background-image: url("/public/Grid/Grid-Module-6x6.svg"); */
-  height: 1884.5px;
+  height: 183.5vh;
   width: 100%;
-  position:relative;
+  position: relative;
 }
 
 .TuringCompleteGraph1 {
   background-image: url("/public/Turning-Complete-Graph.svg");
-  height: 1884.5px;
+  height: 184vh;
   width: 100%;
-  top: 0.5px;
-  left: 0;
   position: absolute;
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -59,7 +57,7 @@
   height: 1px;
   width: 100%;
   z-index: 1;
-  top: 313.5px;
+  top: 16.67%;
   left: 0px;
   position: absolute;
 }
@@ -69,7 +67,7 @@
   height: 1px;
   width: 100%;
   z-index: 1;
-  top: 627.5px;
+  top: 33.33%;
   left: 0px;
   position: absolute;
 }
@@ -79,7 +77,7 @@
   height: 1px;
   width: 100%;
   z-index: 1;
-  top: 941.5px;
+  top: 50%;
   left: 0px;
   position: absolute;
 }
@@ -89,10 +87,31 @@
   height: 1px;
   width: 100%;
   z-index: 1;
-  top: 1255px;
+  top: 66.67%;
   left: 0px;
   position: absolute;
 }
+
+.horizontal-grid-line-5 {
+  background-image: url("/public/Grid/H-Grid-line.svg");
+  height: 1px;
+  width: 100%;
+  z-index: 1;
+  top: 83.33%;
+  left: 0px;
+  position: absolute;
+}
+
+.horizontal-grid-line-6 {
+  background-image: url("/public/Grid/H-Grid-line.svg");
+  height: 1px;
+  width: 100%;
+  z-index: 1;
+  top: 782px;
+  left: 0px;
+  position: absolute;
+}
+
 
 .vertical-grid-line-1 {
   background-image: url("/public/Grid/V-Grid-line.svg");
@@ -100,7 +119,6 @@
   width: 1px;
   z-index: 1;
   top: 0px;
-  /* left: 17.5px; */
   left: 1%;
   position: absolute;
 }
@@ -111,8 +129,7 @@
   width: 1px;
   z-index: 1;
   top: 0px;
-  /* left: 331.5px; */
-  left: 17.33%;
+  left: 17.3%;
   position: absolute;
 }
 
@@ -122,7 +139,6 @@
   width: 1px;
   z-index: 1;
   top: 0px;
-  /* left: 645.5px; */
   left: 33.66%;
   position: absolute;
 }
@@ -133,7 +149,6 @@
   width: 1px;
   z-index: 1;
   top: 0px;
-  /* left: 959.5px; */
   left: 49.99%;
   position: absolute;
 }
@@ -144,8 +159,7 @@
   width: 1px;
   z-index: 1;
   top: 0px;
-  /* left: 1273.5px; */
-  left: 66.33%;
+  left: 66.3%;
   position: absolute;
 }
 
@@ -155,7 +169,6 @@
   width: 1px;
   z-index: 1;
   top: 0px;
-  /* left: 1587.5px; */
   left: 82.66%;
   position: absolute;
 }
@@ -166,7 +179,10 @@
   width: 1px;
   z-index: 1;
   top: 0px;
-  /* left: 1901.5px; */
   left: 98.99%;
   position: absolute;
+}
+
+.grid-opacity {
+  opacity: 0.5;
 }
