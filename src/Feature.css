@@ -3,18 +3,12 @@
     height: 22px;
     width: 22px;
     z-index: 1;
-    top: 23.83px;
-    left: 18.08px;
-    position: absolute;   
 }
 
 .featureHeading {
     height: 32px;
     width: 80%;
     z-index: 1;
-    top: 21px;
-    left: 58px;
-    position: absolute; 
     font-size: 32px;
     font-family: 'Formular';
     color: #000000;
@@ -25,9 +19,6 @@
     height: 215px;
     width: 70%;
     z-index: 1;
-    top: 77px;
-    left: 58px;
-    position: absolute; 
     font-size: 24px;
     font-family: 'Formular';
     color: #787878;

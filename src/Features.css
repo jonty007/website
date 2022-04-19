@@ -2,9 +2,7 @@
     /* background-image: url("/public/Grid/Grid-Module-6x6.svg"); */
     height: 1884px;
     width: 100%;
-    top: 1840px;
-    left: 0;
-    position: absolute;
+    position:relative;
 }
 
 .horizontal-grid-line-1 {
@@ -124,67 +122,9 @@
     position: absolute;
 }
 
-.feature1 {
+.feature {
     height: 316px;
-    width: 30%;
     z-index: 1;
-    top: 0px;
-    left: 2%;
-    position: absolute;
-}
-
-.feature2 {
-    height: 346px;
-    width: 30%;
-    z-index: 1;
-    top: 0px;
-    left: 35%;
-    position: absolute;
-}
-
-.feature3 {
-    height: 316px;
-    width: 30%;
-    z-index: 1;
-    top: 0px;
-    left: 68%;
-    position: absolute;
-}
-
-.feature4 {
-    height: 316px;
-    width: 30%;
-    z-index: 1;
-    top: 345px;
-    left: 2%;
-    position: absolute;
-}
-
-.feature5 {
-    height: 316px;
-    width: 30%;
-    z-index: 1;
-    top: 345px;
-    left: 35%;
-    position: absolute;
-}
-
-.feature6 {
-    height: 316px;
-    width: 30%;
-    z-index: 1;
-    top: 345px;
-    left: 68%;
-    position: absolute;
-}
-
-.feature7 {
-    height: 316px;
-    width: 30%;
-    z-index: 1;
-    top: 661px;
-    left: 2%;
-    position: absolute;
 }
 
 .graph2 {

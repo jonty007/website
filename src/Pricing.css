@@ -2,9 +2,7 @@
     height: 1257.45px;
     width: 100%;
     z-index: 1;
-    top: 3722px;
-    left: 0px;
-    position: absolute; 
+    position:relative;
     background-color: #0046FF;
 }
 

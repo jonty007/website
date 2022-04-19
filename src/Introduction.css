@@ -2,9 +2,7 @@
   /* background-image: url("/public/Grid/Grid-Module-6x6.svg"); */
   height: 1884.5px;
   width: 100%;
-  top: 0;
-  left: 0;
-  position: absolute;
+  position:relative;
 }
 
 .TuringCompleteGraph1 {

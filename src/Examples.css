@@ -2,9 +2,7 @@
     height: 1570px;
     width: 100%;
     z-index: 1;
-    top: 4978px;
-    left: 0px;
-    position: absolute;
+    position:relative;
 }
 
 .horizontal-grid-line-1 {

@@ -170,9 +170,7 @@
   height: 320px;
   width: 100%;
   z-index: 1;
-  top: 8114px;
-  left: 0px;
-  position: absolute;
+  position:relative;
   display: flex;
   align-items: center;
   justify-content: center;
