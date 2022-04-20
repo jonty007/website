@@ -1,12 +1,12 @@
 .GridBGFirst {
   /* background-image: url("/public/Grid/Grid-Module-6x6.svg"); */
-  height: 183.5vh;
+  height: 184vh;
   width: 100%;
   position: relative;
 }
 
 .TuringCompleteGraph1 {
-  background-image: url("/public/Turning-Complete-Graph.svg");
+  /* background-image: url("/public/Turning-Complete-Graph.svg"); */
   height: 184vh;
   width: 100%;
   position: absolute;
@@ -15,41 +15,39 @@
 }
 
 .features {
-  height: 150px;
-  width: 582px;
   z-index: 1;
-  top: 1544px;
-  left: 24.5px;
+  top: 84%;
+  left: 2%;
   position: absolute;
-  font-size: 150px;
+  font-size: 7.5rem;
   font-family: 'Formular';
   text-align: left;
+}
+
+.headingWrapper {
+  position: absolute;
+  top: 33%;
+  left: 17%;
+  width: 80%;
+  text-align: left;
+  z-index: 1;
+  font-family: 'Formular';
+  padding: 1%;
 }
 
 .headline {
-  height: 104px;
-  width: 592px;
-  z-index: 1;
-  top: 644px;
-  left: 350px;
-  position: absolute;
-  font-size: 45px;
-  font-family: 'Formular';
-  text-align: left;
+  font-size: 2.5rem;
   color: #000f38;
+  padding-bottom: 2%;
 }
 
 .subHeading {
-  height: 124px;
-  width: 592px;
-  z-index: 1;
-  top: 769.25px;
-  left: 350px;
-  position: absolute;
-  font-size: 24px;
-  font-family: 'Formular';
-  text-align: left;
+  font-size: 1.4rem;
   color: #787878;
+}
+
+.headingWrapper p {
+  margin: 0;
 }
 
 .horizontal-grid-line-1 {
@@ -108,6 +106,16 @@
   width: 100%;
   z-index: 1;
   top: 782px;
+  left: 0px;
+  position: absolute;
+}
+
+.horizontal-grid-line-7 {
+  background-image: url("/public/Grid/H-Grid-line.svg");
+  height: 1px;
+  width: 100%;
+  z-index: 1;
+  top: 100%;
   left: 0px;
   position: absolute;
 }

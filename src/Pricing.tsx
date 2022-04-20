@@ -8,6 +8,8 @@ function Pricing() {
       <Box className="horizontal-grid-line-2" />
       <Box className="horizontal-grid-line-3" />
       <Box className="horizontal-grid-line-4" />
+      <Box className="horizontal-grid-line-5" />
+      <Box className="horizontal-grid-line-7" />
       <Box className="vertical-grid-line-1" />
       <Box className="vertical-grid-line-2" />
       <Box className="vertical-grid-line-3" />
