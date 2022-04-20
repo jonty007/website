@@ -19,7 +19,7 @@
   top: 84%;
   left: 2%;
   position: absolute;
-  font-size: 7.5rem;
+  font-size: 7.3vw;
   font-family: 'Formular';
   text-align: left;
 }
@@ -36,13 +36,13 @@
 }
 
 .headline {
-  font-size: 2.5rem;
+  font-size: 2.3vw;
   color: #000f38;
   padding-bottom: 2%;
 }
 
 .subHeading {
-  font-size: 1.4rem;
+  font-size: 1.2vw;
   color: #787878;
 }
 
@@ -105,7 +105,7 @@
   height: 1px;
   width: 100%;
   z-index: 1;
-  top: 782px;
+  top: 41.9%;
   left: 0px;
   position: absolute;
 }

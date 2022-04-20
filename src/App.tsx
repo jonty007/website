@@ -47,13 +47,13 @@ function App() {
       <About />
       {/* <Footer /> */}
       <Box className="contact-container">
-        <Box className="vertical-grid-line-1" />
-        <Box className="vertical-grid-line-2" />
-        <Box className="vertical-grid-line-3" />
-        <Box className="vertical-grid-line-4" />
-        <Box className="vertical-grid-line-5" />
-        <Box className="vertical-grid-line-6" />
-        <Box className="vertical-grid-line-7" />
+        <Box className="vertical-grid-line-1 grid-opacity" />
+        <Box className="vertical-grid-line-2 grid-opacity" />
+        <Box className="vertical-grid-line-3 grid-opacity" />
+        <Box className="vertical-grid-line-4 grid-opacity" />
+        <Box className="vertical-grid-line-5 grid-opacity" />
+        <Box className="vertical-grid-line-6 grid-opacity" />
+        <Box className="vertical-grid-line-7 grid-opacity" />
         <Grid
           container
           rowSpacing={1}
@@ -67,8 +67,7 @@ function App() {
             </p>
           </Grid>
           <Grid item xs={4} className="social-links">
-            <Grid item xs={1}></Grid>
-            <Grid item xs={10}>
+            <Grid item xs={12}>
               <a href="https://www.twitter.com" target="_blank">
                 <Twitter
                   height="50px"
@@ -101,7 +100,6 @@ function App() {
                 <GitHub height="50px" width="50px" viewBox="0 0 26 26"></GitHub>
               </a>
             </Grid>
-            <Grid item xs={1}></Grid>
           </Grid>
           <Grid item xs={4} className="copyright">
             <p>Copyright © 2022 Bitcoin Computer. All rights reserved.</p>

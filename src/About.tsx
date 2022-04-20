@@ -5,18 +5,18 @@ import Profile from "./Profile";
 function About() {
   return (
     <Box className="about-container" id="about">
-      <Box className="horizontal-grid-line-1" />
-      <Box className="horizontal-grid-line-2" />
-      <Box className="horizontal-grid-line-3" />
-      <Box className="horizontal-grid-line-4" />
-      <Box className="horizontal-grid-line-5" />
-      <Box className="vertical-grid-line-1" />
-      <Box className="vertical-grid-line-2" />
-      <Box className="vertical-grid-line-3" />
-      <Box className="vertical-grid-line-4" />
-      <Box className="vertical-grid-line-5" />
-      <Box className="vertical-grid-line-6" />
-      <Box className="vertical-grid-line-7" />
+      <Box className="horizontal-grid-line-1 grid-opacity" />
+      <Box className="horizontal-grid-line-2 grid-opacity" />
+      <Box className="horizontal-grid-line-3 grid-opacity" />
+      <Box className="horizontal-grid-line-4 grid-opacity" />
+      <Box className="horizontal-grid-line-5 grid-opacity" />
+      <Box className="vertical-grid-line-1 grid-opacity" />
+      <Box className="vertical-grid-line-2 grid-opacity" />
+      <Box className="vertical-grid-line-3 grid-opacity" />
+      <Box className="vertical-grid-line-4 grid-opacity" />
+      <Box className="vertical-grid-line-5 grid-opacity" />
+      <Box className="vertical-grid-line-6 grid-opacity" />
+      <Box className="vertical-grid-line-7 grid-opacity" />
       <Box className="about-heading">About</Box>
       <Box className="text-1">
         A chat is an object with a property messages, that is initially empty.

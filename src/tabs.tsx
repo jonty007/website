@@ -48,7 +48,7 @@ export default function BasicTabs() {
 
   return (
     <Box
-      sx={{ width: "100%", paddingTop: "280px" }}
+      sx={{ width: "100%", paddingTop: "13.8%" }}
       className="ExamplesBoxContent"
     >
       <Box sx={{ borderBottom: 1, borderColor: "divider" }}>

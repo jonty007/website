@@ -4,19 +4,19 @@ import "./Pricing.css";
 function Pricing() {
   return (
     <Box className="pricing-container" sx={{ backgroundColor: "#0046FF" }} id="pricing">
-      <Box className="horizontal-grid-line-1" />
-      <Box className="horizontal-grid-line-2" />
-      <Box className="horizontal-grid-line-3" />
-      <Box className="horizontal-grid-line-4" />
-      <Box className="horizontal-grid-line-5" />
-      <Box className="horizontal-grid-line-7" />
-      <Box className="vertical-grid-line-1" />
-      <Box className="vertical-grid-line-2" />
-      <Box className="vertical-grid-line-3" />
-      <Box className="vertical-grid-line-4" />
-      <Box className="vertical-grid-line-5" />
-      <Box className="vertical-grid-line-6" />
-      <Box className="vertical-grid-line-7" />
+      <Box className="horizontal-grid-line-1 grid-opacity" />
+      <Box className="horizontal-grid-line-2 grid-opacity" />
+      <Box className="horizontal-grid-line-3 grid-opacity" />
+      <Box className="horizontal-grid-line-4 grid-opacity" />
+      <Box className="horizontal-grid-line-5 grid-opacity" />
+      <Box className="horizontal-grid-line-7 grid-opacity" />
+      <Box className="vertical-grid-line-1 grid-opacity" />
+      <Box className="vertical-grid-line-2 grid-opacity" />
+      <Box className="vertical-grid-line-3 grid-opacity" />
+      <Box className="vertical-grid-line-4 grid-opacity" />
+      <Box className="vertical-grid-line-5 grid-opacity" />
+      <Box className="vertical-grid-line-6 grid-opacity" />
+      <Box className="vertical-grid-line-7 grid-opacity" />
       <Box className="pricing-heading">Pricing</Box>
       <Box className="pricing-option-1">
         <b>Free</b> forever on Testnet

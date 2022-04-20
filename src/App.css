@@ -167,14 +167,22 @@
 }
 
 .contact-container {
-  height: 320px;
+  height: 30.67vh;
   width: 100%;
   z-index: 1;
-  position:relative;
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: #0046ff;
+}
+
+.contact-container p {
+  margin: 0;
+}
+
+.contact-email-wrapper {
+  margin-top: 1% !important;
 }
 
 .contact-email-wrapper {
@@ -186,12 +194,12 @@
 }
 
 .contact-email-wrapper-first {
-  font-size: 24px;
+  font-size: 1.3vw;
   color: #A7BFFF;
 }
 
 .contact-email-wrapper-second {
-  font-size: 22px;
+  font-size: 1.1vw;
   color: white;
 }
 
@@ -218,6 +226,8 @@
 
 .social-links svg {
   margin: 16px;
+  height: 2.8vw;
+  width: 2.8vw;
 }
 
 .social-links p {

@@ -1,47 +1,43 @@
 .about-container {
-    height: 1570px;
+    height: 184vh;
     width: 100%;
     z-index: 1;
-    position:relative;
+    position: relative;
     background-color: #000F38;
 }
 
 .about-heading {
     font-family: Formular;
-    font-size: 150px;
+    font-size: 7.3vw;
     color: #FFFFFF;
-    letter-spacing: -6.38px;
-    line-height: 50px;
-    width: 405px;
     z-index: 1;
-    top: 404px;
-    left: 36px;
+    top: 18%;
+    left: 2%;
     position: absolute;
     text-align: left;
 }
 
 .text-1 {
     font-family: Formular;
-    font-size: 32px;
+    font-size: 2vw;
     color: #FFFFFF;
     letter-spacing: 0;
-    width: 55%;
     z-index: 1;
-    top: 527px;
-    left: 36px;
+    top: 27%;
+    left: 2%;
     position: absolute;
     text-align: left;
 }
 
 .text-2 {
     font-family: Formular;
-    font-size: 32px;
-    color: #FFFFFF;
+    font-size: 1.4vw;
+    color: #787878;
     letter-spacing: 0;
-    width: 60%;
+    width: 62%;
     z-index: 1;
-    top: 583px;
-    left: 36px;
+    top: 31.5%;
+    left: 2%;
     position: absolute;
     text-align: left;
 }
