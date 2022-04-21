@@ -1,5 +1,5 @@
 import Box from "@mui/material/Box";
-import Grid from "@mui/material/Grid"
+import Grid from "@mui/material/Grid";
 import Feature from "./Feature";
 import "./Features.css";
 
@@ -18,9 +18,7 @@ function Features() {
       <Box className="vertical-grid-line-5" />
       <Box className="vertical-grid-line-6" />
       <Box className="vertical-grid-line-7" />
-      <Grid
-        container
-        className="featuresGridWrapper">
+      <Grid container className="featuresGridWrapper">
         <Grid item xs={4} className="feature featuresGridItem">
           <Feature
             heading="Easy to Use"
@@ -68,7 +66,9 @@ function Features() {
           />
         </Grid>
       </Grid>
-      <Box className="graph2" />
+      <Box className="graph-container">
+        <img className="graph2" src="/Graph-2.png" />
+      </Box>
     </Box>
   );
 }
