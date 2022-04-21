@@ -95,6 +95,7 @@
   background-color: white;
   border-bottom: #dfdfdf 2px solid;
   width: 100%;
+  height: 12vh;
 }
 
 .docsLink {
@@ -103,9 +104,10 @@
 }
 
 .header img {
-  padding: 10px;
+  margin-left: 6%;
   width: auto;
-  height: 80px;
+  height: 6vh;
+  margin-top: 3vh;
 }
 
 .navigation a:visited {

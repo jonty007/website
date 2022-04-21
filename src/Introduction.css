@@ -6,12 +6,56 @@
 }
 
 .TuringCompleteGraph1 {
-  /* background-image: url("/public/Turning-Complete-Graph.svg"); */
+  background-image: url("/public/Turning-Complete-Graph.png");
   height: 184vh;
   width: 100%;
   position: absolute;
   background-repeat: no-repeat;
   background-size: 100% 100%;
+  z-index: 1;
+}
+
+.cross-grid-1 {
+  background-image: url("/public/Grid/grid-Cell-Sub.png");
+  width: 16.3%;
+  height: 16.67%;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  left: 50%;
+}
+
+.cross-grid-2 {
+  background-image: url("/public/Grid/grid-Cell-Sub.png");
+  width: 16.3%;
+  height: 16.67%;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  left: 66.3%;
+  top: 50%;
+}
+
+.cross-grid-3 {
+  background-image: url("/public/Grid/grid-Cell-Sub.png");
+  width: 16.3%;
+  height: 16.67%;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  left: 66.3%;
+  top: 66.67%;
+}
+
+.cross-grid-4 {
+  background-image: url("/public/Grid/grid-Cell-Sub.png");
+  width: 16.3%;
+  height: 16.67%;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  top: 83.33%;
+  left: 82.66%;
 }
 
 .features {

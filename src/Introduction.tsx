@@ -18,6 +18,10 @@ function Introduction() {
       <Box className="vertical-grid-line-6" />
       <Box className="vertical-grid-line-7" />
       <Box className="TuringCompleteGraph1" />
+      <Box className="cross-grid-1" />
+      <Box className="cross-grid-2" />
+      <Box className="cross-grid-3" />
+      <Box className="cross-grid-4" />
       <Box className="features" id="features">Features</Box>
       <Box className="headingWrapper">
         <Box className="headline">

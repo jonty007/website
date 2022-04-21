@@ -4,12 +4,10 @@ import "./Pricing.css";
 function Pricing() {
   return (
     <Box className="pricing-container" sx={{ backgroundColor: "#0046FF" }} id="pricing">
-      <Box className="horizontal-grid-line-1 grid-opacity" />
-      <Box className="horizontal-grid-line-2 grid-opacity" />
-      <Box className="horizontal-grid-line-3 grid-opacity" />
-      <Box className="horizontal-grid-line-4 grid-opacity" />
-      <Box className="horizontal-grid-line-5 grid-opacity" />
-      <Box className="horizontal-grid-line-7 grid-opacity" />
+      <Box className="horizontal-pricing-grid-line-1 grid-opacity" />
+      <Box className="horizontal-pricing-grid-line-2 grid-opacity" />
+      <Box className="horizontal-pricing-grid-line-3 grid-opacity" />
+      <Box className="horizontal-pricing-grid-line-4 grid-opacity" />
       <Box className="vertical-grid-line-1 grid-opacity" />
       <Box className="vertical-grid-line-2 grid-opacity" />
       <Box className="vertical-grid-line-3 grid-opacity" />

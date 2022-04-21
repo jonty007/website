@@ -17,8 +17,8 @@ function App() {
   return (
     <div className="App">
       <header className="header">
-        <Grid container>
-          <Grid item xs={3} sx={{ padding: "20px", textAlign: "left" }}>
+        <Grid container sx={{height: "12vh"}}>
+          <Grid item xs={3} sx={{ textAlign: "left" }}>
             <img src="logo/BitcoinComputer-Logo.png" height="40px" alt="logo" />
           </Grid>
           <Grid item xs={9} className="navigation">
