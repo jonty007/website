@@ -9,8 +9,8 @@ export interface FeatureProps {
 function Feature(props: FeatureProps) {
   return (
     <Box>
-      <Box>
-        <img src="/feature-dot.png"></img>
+      <Box sx={{ textAlign: "start" }}>
+        <img src="/feature-dot.png" className="featureDot"></img>
         <h3 className="featureHeading">{props.heading}</h3>
       </Box>
       <Box className="featureText">{props.text}</Box>

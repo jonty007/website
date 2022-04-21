@@ -2,18 +2,16 @@
     height: 184vh;
     width: 100%;
     z-index: 1;
-    position:relative;
+    position: relative;
     background-color: #0046FF;
 }
 
 .pricing-heading {
-    height: 50px;
-    width: 461px;
     z-index: 2;
-    top: 298px;
-    left: 24.38px;
-    position: absolute; 
-    font-size: 150px;
+    top: 17%;
+    left: 2%;
+    position: absolute;
+    font-size: 7.3vw;
     font-family: 'Formular';
     color: #ffffff;
     text-align: left;
@@ -25,7 +23,7 @@
     z-index: 2;
     top: 338px;
     left: 664.5px;
-    position: absolute; 
+    position: absolute;
     font-size: 43px;
     font-family: 'Formular';
     color: #ffffff;
@@ -33,39 +31,36 @@
 }
 
 .pricing-option-1 {
-    height: 86px;
-    width: 277px;
+    width: 15%;
     z-index: 2;
-    top: 643px;
-    left: 348px;
-    position: absolute; 
-    font-size: 43px;
+    top: 35%;
+    left: 19%;
+    position: absolute;
+    font-size: 1.7vw;
     font-family: 'Formular';
     color: #ffffff;
     text-align: left;
 }
 
 .pricing-option-2 {
-    height: 95px;
-    width: 277px;
+    width: 15%;
     z-index: 2;
-    top: 643px;
-    left: 665px;
-    position: absolute; 
-    font-size: 43px;
+    top: 35%;
+    left: 35%;
+    position: absolute;
+    font-size: 1.7vw;
     font-family: 'Formular';
     color: #ffffff;
     text-align: left;
 }
 
 .pricing-option-3 {
-    height: 213px;
-    width: 277px;
+    width: 15%;
     z-index: 2;
-    top: 643px;
-    left: 978px;
-    position: absolute; 
-    font-size: 43px;
+    top: 35%;
+    left: 52%;
+    position: absolute;
+    font-size: 1.7vw;
     font-family: 'Formular';
     color: #ffffff;
     text-align: left;
@@ -75,7 +70,7 @@
     background-image: url("/public/Graph-3.svg");
     top: 785px;
     left: 74.1%;
-    position: absolute; 
+    position: absolute;
     background-repeat: no-repeat;
     z-index: 2;
     width: 25.9%;

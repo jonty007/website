@@ -1,47 +1,37 @@
 .profile-container {
-    height: 630px;
     width: 70%;
     z-index: 1;
-    position: absolute; 
+    position: absolute;
     text-align: left;
 }
 
 .profile-picture {
-    top: 18px;
-    left: 18px;
-    width: 141px;
-    height: 141px;
+    width: 7.6vw;
+    height: 7.6vw;
     text-align: left;
-    position: absolute;
 }
 
 .profile-name {
-    left: 18px;
-    top: 195px;
-    width: 195px;
-    height: 64px;
+    width: 100%;
     color: white;
     font-family: Formular;
-    font-size: 32px;
+    font-size: 1.8vw;
     color: #FFFFFF;
     letter-spacing: 0;
     text-align: left;
-    position: absolute;
+    margin-top: 7%;
 }
 
 .profile-text {
     left: 18px;
-    top: 252px;
     width: 100%;
-    height: 235px;
     color: white;
     font-family: Formular;
-    font-size: 24px;
+    font-size: 1.3vw;
     color: #FFFFFF;
     letter-spacing: 0;
-    line-height: 31px;
     text-align: left;
-    position: absolute;
+    margin-top: 7%;
 }
 
 .social-1 {

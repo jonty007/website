@@ -48,7 +48,10 @@ export default function BasicTabs() {
 
   return (
     <Box
-      sx={{ width: "100%", paddingTop: "13.8%" }}
+      sx={{
+        paddingTop: "30.2%", width: "98%",
+        margin: "0 1%"
+      }}
       className="ExamplesBoxContent"
     >
       <Box sx={{ borderBottom: 1, borderColor: "divider" }}>
@@ -57,14 +60,15 @@ export default function BasicTabs() {
           onChange={handleChange}
           aria-label="basic tabs example"
           variant="fullWidth"
+
         >
-          <Tab label="Non-Fungible tokens" {...a11yProps(0)} />
-          <Tab label="Fungible Token" {...a11yProps(1)} />
-          <Tab label="Chat" {...a11yProps(2)} />
+          <Tab label="Non-Fungible tokens" {...a11yProps(0)} className="examples-tab" />
+          <Tab label="Fungible Token" {...a11yProps(1)} className="examples-tab" />
+          <Tab label="Chat" {...a11yProps(2)} className="examples-tab" />
         </Tabs>
       </Box>
       <TabPanel value={value} index={0}>
-        <Grid container sx={{ zIndex: 3 }}>
+        <Grid container sx={{ zIndex: 3 }} className="example-grid-wrapper">
           <Grid item xs={4} className="infoGridExample">
             <Box className="example-1-text-tab">
               How to create Non-Fungible tokens NFTs) on Bitcoin Computer
@@ -76,18 +80,52 @@ export default function BasicTabs() {
               function send to assign a new owner.
             </Box>
           </Grid>
-          <Grid item xs={4}>
+          <Grid item xs={4} className="infoGridExample">
             {/* <Box className="example-rectangle" /> */}
             <CodeSection />
           </Grid>
-          <Grid item xs={4}></Grid>
+          <Grid item xs={4} className="infoGridExample"></Grid>
         </Grid>
       </TabPanel>
       <TabPanel value={value} index={1}>
-        <CodeSection />
+        <Grid container sx={{ zIndex: 3 }} className="example-grid-wrapper">
+          <Grid item xs={4} className="infoGridExample">
+            <Box className="example-1-text-tab">
+              How to create Non-Fungible tokens NFTs) on Bitcoin Computer
+            </Box>
+            <Box className="example-1-subtext-tab">
+              A non-fungible token is an object that has some state. In the
+              example below the entire state is stored in a single property
+              state. The token has a function setState to update the state and a
+              function send to assign a new owner.
+            </Box>
+          </Grid>
+          <Grid item xs={4} className="infoGridExample">
+            {/* <Box className="example-rectangle" /> */}
+            <CodeSection />
+          </Grid>
+          <Grid item xs={4} className="infoGridExample"></Grid>
+        </Grid>
       </TabPanel>
       <TabPanel value={value} index={2}>
-        Item Three
+        <Grid container sx={{ zIndex: 3 }} className="example-grid-wrapper">
+          <Grid item xs={4} className="infoGridExample">
+            <Box className="example-1-text-tab">
+              How to create Non-Fungible tokens NFTs) on Bitcoin Computer
+            </Box>
+            <Box className="example-1-subtext-tab">
+              A non-fungible token is an object that has some state. In the
+              example below the entire state is stored in a single property
+              state. The token has a function setState to update the state and a
+              function send to assign a new owner.
+            </Box>
+          </Grid>
+          <Grid item xs={4} className="infoGridExample">
+            {/* <Box className="example-rectangle" /> */}
+            <CodeSection />
+          </Grid>
+          <Grid item xs={4} className="infoGridExample"></Grid>
+        </Grid>
       </TabPanel>
     </Box>
   );

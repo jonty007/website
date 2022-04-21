@@ -1,7 +1,5 @@
 .featureDot {
-    background-image: url("/public/feature-dot.png");
-    height: 22px;
-    width: 22px;
+    display: inline-block;
     z-index: 1;
 }
 
@@ -9,17 +7,20 @@
     height: 32px;
     width: 80%;
     z-index: 1;
-    font-size: 32px;
+    font-size: 1.4vw;
     font-family: 'Formular';
     color: #000000;
     text-align: left;
+    padding-left: 2%;
+    display: inline-block;
 }
 
 .featureText {
     width: 70%;
     z-index: 1;
-    font-size: 24px;
+    font-size: 1.1vw;
     font-family: 'Formular';
     color: #787878;
     text-align: left;
+    padding-left: 6%;
 }

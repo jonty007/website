@@ -6,12 +6,12 @@
 }
 
 .code-block {
-    font-family: IBMPlexMono-Regular;
-    font-size: 20px;
+    font-family: 'IBMPlexMono-Regular';
+    font-size: 1vw;
     letter-spacing: 0;
-    line-height: 25px;
     color: #A2A2A2;
     font-weight: lighter;
+    margin: 0;
 }
 
 .code-yellow {
