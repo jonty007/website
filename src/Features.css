@@ -19,11 +19,11 @@
 
 .graph2 {
     background-image: url("/public/Graph-2.svg");
-    top: 785px;
+    top: 41.3%;
     left: 49.2%;
     position: absolute;
     background-repeat: no-repeat;
     z-index: 5;
     width: 50.7%;
-    height: 1098.95px;
+    height: 108vh;
 }

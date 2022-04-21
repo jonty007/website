@@ -34,38 +34,38 @@
     margin-top: 7%;
 }
 
+.social-links-about {
+    position: absolute;
+    top: 80%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+
 .social-1 {
     background-image: url("/public/social/github.svg");
-    left: 18px;
-    top: 502px;
-    width: 24px;
-    height: 24px;
-    position: absolute;
+    width: 2vw;
+    height: 2vw;
+    background-repeat: no-repeat;
 }
 
 .social-2 {
     background-image: url("/public/social/insta.svg");
-    left: 56px;
-    top: 502px;
-    width: 24px;
-    height: 24px;
-    position: absolute;
+    width: 2vw;
+    height: 2vw;
+    background-repeat: no-repeat;
 }
 
 .social-3 {
     background-image: url("/public/social/linkedin.svg");
-    left: 94px;
-    top: 502px;
-    width: 24px;
-    height: 24px;
-    position: absolute;
+    width: 2vw;
+    height: 2vw;
+    background-repeat: no-repeat;
 }
 
 .social-4 {
     background-image: url("/public/social/medium.svg");
-    left: 132px;
-    top: 502px;
-    width: 24px;
-    height: 24px;
-    position: absolute;
+    width: 2vw;
+    height: 2vw;
+    background-repeat: no-repeat;
 }
