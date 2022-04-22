@@ -17,9 +17,13 @@ function App() {
   return (
     <div className="App">
       <header className="header">
-        <Grid container sx={{height: "12vh"}}>
+        <Grid container sx={{ height: "12vh" }}>
           <Grid item xs={3} sx={{ textAlign: "left" }}>
-            <img src="logo/BitcoinComputer-Logo.png" height="40px" alt="logo" />
+            <img
+              src="https://bitcoin-computer.github.io/website/logo/BitcoinComputer-Logo.png"
+              height="40px"
+              alt="logo"
+            />
           </Grid>
           <Grid item xs={9} className="navigation">
             <nav>
@@ -32,7 +36,7 @@ function App() {
                 rel="noreferrer"
               >
                 Docs
-                <ArrowLink className="docsLink"/>
+                <ArrowLink className="docsLink" />
               </a>
               <a href="#about">About</a>
             </nav>
@@ -63,7 +67,9 @@ function App() {
           <Grid item xs={4} className="contact-email-wrapper">
             <p className="contact-email-wrapper-first">Get in touch</p>
             <p className="contact-email-wrapper-second">
-              <a href="mailto:hello@bitcoincomputer.io">hello@bitcoincomputer.io</a>
+              <a href="mailto:hello@bitcoincomputer.io">
+                hello@bitcoincomputer.io
+              </a>
             </p>
           </Grid>
           <Grid item xs={4} className="social-links">
