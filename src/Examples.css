@@ -1,5 +1,5 @@
 .examples-container {
-    height: 184vh;
+    height: 84.33vw;
     width: 100%;
     z-index: 1;
     position: relative;
@@ -80,7 +80,7 @@
     height: 50px;
     width: 33.33%;
     z-index: 2;
-    top: 17%;
+    top: 19%;
     left: 2%;
     position: absolute;
     font-size: 7.3vw;
@@ -159,7 +159,7 @@
     text-align: left;
     width: 80%;
     z-index: 2;
-    top: 78%;
+    top: 88%;
     left: 2%;
     position: absolute;
 }
@@ -196,5 +196,55 @@
 }
 
 .example-grid-wrapper {
-    margin-top: calc(8.5% + 1px);
+    margin-top: calc(9.7% + 1px);
 }
+
+.horizontal-examples-grid-line-1 {
+    background-image: url("/public/Grid/H-Grid-line.svg");
+    height: 1px;
+    width: 100%;
+    z-index: 1;
+    top: 20%;
+    left: 0px;
+    position: absolute;
+  }
+  
+  .horizontal-examples-grid-line-2 {
+    background-image: url("/public/Grid/H-Grid-line.svg");
+    height: 1px;
+    width: 100%;
+    z-index: 1;
+    top: 40%;
+    left: 0px;
+    position: absolute;
+  }
+  
+  .horizontal-examples-grid-line-3 {
+    background-image: url("/public/Grid/H-Grid-line.svg");
+    height: 1px;
+    width: 100%;
+    z-index: 1;
+    top: 60%;
+    left: 0px;
+    position: absolute;
+  }
+  
+  .horizontal-examples-grid-line-4 {
+    background-image: url("/public/Grid/H-Grid-line.svg");
+    height: 1px;
+    width: 100%;
+    z-index: 1;
+    top: 80%;
+    left: 0px;
+    position: absolute;
+  }
+
+  .horizontal-examples-grid-line-5 {
+    background-image: url("/public/Grid/H-Grid-line.svg");
+    height: 1px;
+    width: 100%;
+    z-index: 1;
+    top: 100%;
+    left: 0px;
+    position: absolute;
+  }

@@ -49,7 +49,7 @@ export default function BasicTabs() {
   return (
     <Box
       sx={{
-        paddingTop: "30.2%", width: "98%",
+        paddingTop: "31.4%", width: "98%",
         margin: "0 1%"
       }}
       className="ExamplesBoxContent"

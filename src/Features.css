@@ -1,5 +1,5 @@
 .featuresContainer {
-    height: 184vh;
+    height: 97.6vw;
     width: 100%;
     position: relative;
 }
@@ -14,7 +14,7 @@
 
 .featuresGridItem {
     padding: 1%;
-    height: 30.6vh;
+    height: 16.27vw;
 }
 
 .graph-container {

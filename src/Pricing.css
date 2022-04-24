@@ -1,5 +1,5 @@
 .pricing-container {
-    height: 122.67vh;
+    height: 67.46vw;
     width: 100%;
     z-index: 1;
     position: relative;
@@ -68,13 +68,13 @@
 
 .graph3 {
     background-image: url("/public/Graph-3.svg");
-    top: 62%;
+    top: 62.4%;
     left: 74.1%;
     position: absolute;
     background-repeat: no-repeat;
     z-index: 2;
     width: 25.9%;
-    height: 46.5vh;
+    height: 24vw;
 }
 
 .horizontal-pricing-grid-line-1 {

@@ -5,11 +5,11 @@ import Profile from "./Profile";
 function About() {
   return (
     <Box className="about-container" id="about">
-      <Box className="horizontal-grid-line-1 grid-opacity" />
-      <Box className="horizontal-grid-line-2 grid-opacity" />
-      <Box className="horizontal-grid-line-3 grid-opacity" />
-      <Box className="horizontal-grid-line-4 grid-opacity" />
-      <Box className="horizontal-grid-line-5 grid-opacity" />
+      <Box className="horizontal-about-grid-line-1 grid-opacity" />
+      <Box className="horizontal-about-grid-line-2 grid-opacity" />
+      <Box className="horizontal-about-grid-line-3 grid-opacity" />
+      <Box className="horizontal-about-grid-line-4 grid-opacity" />
+      <Box className="horizontal-about-grid-line-5 grid-opacity" />
       <Box className="vertical-grid-line-1 grid-opacity" />
       <Box className="vertical-grid-line-2 grid-opacity" />
       <Box className="vertical-grid-line-3 grid-opacity" />

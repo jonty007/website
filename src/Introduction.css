@@ -1,13 +1,13 @@
 .GridBGFirst {
   /* background-image: url("/public/Grid/Grid-Module-6x6.svg"); */
-  height: 184vh;
+  height: 97.6vw;
   width: 100%;
   position: relative;
 }
 
 .TuringCompleteGraph1 {
   background-image: url("/public/Turning-Complete-Graph.png");
-  height: 184vh;
+  height: 97.6vw;
   width: 100%;
   position: absolute;
   background-repeat: no-repeat;
@@ -149,7 +149,7 @@
   height: 1px;
   width: 100%;
   z-index: 1;
-  top: 41.9%;
+  top: 51.2%;
   left: 0px;
   position: absolute;
 }
