@@ -8,7 +8,7 @@
 .docsLinkExamples {
     text-decoration: underline;
     color: #000F38;
-    font-size: 24px;
+    font-size: 1.2vw;
 }
 
 .docsLinkExamples:active,
@@ -92,7 +92,7 @@
 .infoGridExample {
     background-color: white;
     z-index: 3;
-    height: calc(45.6vh - 1px);
+    height: 24.21vw;
     padding: 1%;
 }
 
@@ -197,6 +197,7 @@
 
 .example-grid-wrapper {
     margin-top: calc(9.7% + 1px);
+    border-bottom: #dfdfdf 1px solid;
 }
 
 .horizontal-examples-grid-line-1 {

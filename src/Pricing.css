@@ -68,13 +68,14 @@
 
 .graph3 {
     background-image: url("/public/Graph-3.svg");
-    top: 62.4%;
+    top: 62.85%;
     left: 74.1%;
     position: absolute;
     background-repeat: no-repeat;
     z-index: 2;
     width: 25.9%;
     height: 24vw;
+    background-size: 100%;
 }
 
 .horizontal-pricing-grid-line-1 {

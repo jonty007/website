@@ -6,9 +6,9 @@ function Examples() {
   return (
     <Box className="examples-container" id="examples">
       <Box className="horizontal-examples-grid-line-1" />
-      <Box className="horizontal-examples-grid-line-2" />
+      {/* <Box className="horizontal-examples-grid-line-2" /> */}
       <Box className="horizontal-examples-grid-line-3" />
-      <Box className="horizontal-examples-grid-line-4" />
+      {/* <Box className="horizontal-examples-grid-line-4" /> */}
       <Box className="horizontal-examples-grid-line-5" />
       <Box className="horizontal-grid-line-6" />
       <Box className="vertical-grid-line-1" />

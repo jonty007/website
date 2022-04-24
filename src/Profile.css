@@ -44,28 +44,28 @@
 
 .social-1 {
     background-image: url("/public/social/github.svg");
-    width: 2vw;
-    height: 2vw;
+    width: 40px;
+    height: 40px;
     background-repeat: no-repeat;
 }
 
 .social-2 {
     background-image: url("/public/social/insta.svg");
-    width: 2vw;
-    height: 2vw;
+    width: 40px;
+    height: 40px;
     background-repeat: no-repeat;
 }
 
 .social-3 {
     background-image: url("/public/social/linkedin.svg");
-    width: 2vw;
-    height: 2vw;
+    width: 40px;
+    height: 40px;
     background-repeat: no-repeat;
 }
 
 .social-4 {
     background-image: url("/public/social/medium.svg");
-    width: 2vw;
-    height: 2vw;
+    width: 40px;
+    height: 40px;
     background-repeat: no-repeat;
 }

@@ -64,6 +64,16 @@
   text-align: left;
 }
 
+.ExamplesBoxContent .MuiButtonBase-root {
+  font-size: 1.1vw;
+  padding: 0.6vw 1vw;
+  min-height: 0px;
+}
+
+.ExamplesBoxContent .MuiTabs-root {
+  min-height: 0;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -79,8 +89,9 @@
 
 .navigation a {
   text-decoration: none;
-  padding: 10px 20px;
+  padding: 0.6vw 1.1vw;
   color: black;
+  font-size: .9vw;
 }
 
 .navigation a:visited,
@@ -99,8 +110,8 @@
 }
 
 .docsLink {
-  height: 12px;
-  width: 20px;
+  height: 0.66vw;
+  width: 1.1vw;
 }
 
 .header img {
@@ -181,6 +192,7 @@
 
 .contact-container p {
   margin: 0;
+  font-size: .8vw;
 }
 
 .contact-email-wrapper {
@@ -200,6 +212,10 @@
   color: #A7BFFF;
 }
 
+.contact-email-wrapper-first p {
+  font-size: 1.1vw;
+}
+
 .contact-email-wrapper-second {
   font-size: 1.1vw;
   color: white;
@@ -211,7 +227,7 @@
 .contact-email-wrapper-second a:visited {
   text-decoration: none;
   color: white;
-  font-size: 22px;
+  font-size: 1.2vw;
 }
 
 .social-links {
@@ -227,7 +243,7 @@
 }
 
 .social-links svg {
-  margin: 16px;
+  margin: .7vw;
   height: 2.8vw;
   width: 2.8vw;
 }

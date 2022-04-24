@@ -81,7 +81,7 @@ function App() {
                   viewBox="0 0 26 26"
                 ></Twitter>
               </a>
-              <a href="www.twitter.comhttps://www.twitter.com" target="_blank">
+              <a href="https://www.twitter.com" target="_blank">
                 <Telegram
                   height="50px"
                   width="50px"
