@@ -81,7 +81,6 @@
 
 
 .navigation {
-  padding: 20px;
   display: flex;
   justify-content: right;
   align-items: center;
@@ -92,6 +91,8 @@
   padding: 0.6vw 1.1vw;
   color: black;
   font-size: .9vw;
+  font-family: Formular;
+  font-weight: bold;
 }
 
 .navigation a:visited,

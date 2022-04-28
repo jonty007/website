@@ -5,6 +5,8 @@ import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
 import CodeSection from "./CodeSection";
+import CodeSectionFungible from "./CodeSectionFungible";
+import CodeSectionChat from "./CodeSectionChat";
 
 interface TabPanelProps {
   children?: React.ReactNode;
@@ -91,18 +93,15 @@ export default function BasicTabs() {
         <Grid container sx={{ zIndex: 3 }} className="example-grid-wrapper">
           <Grid item xs={4} className="infoGridExample">
             <Box className="example-1-text-tab">
-              How to create Non-Fungible tokens NFTs) on Bitcoin Computer
+              How to create Fungible tokens on Bitcoin Computer
             </Box>
             <Box className="example-1-subtext-tab">
-              A non-fungible token is an object that has some state. In the
-              example below the entire state is stored in a single property
-              state. The token has a function setState to update the state and a
-              function send to assign a new owner.
+              The constructor creates a new coin that stores a number of tokens. When a user sends a token to another user a new coin is created.
             </Box>
           </Grid>
           <Grid item xs={4} className="infoGridExample">
             {/* <Box className="example-rectangle" /> */}
-            <CodeSection />
+            <CodeSectionFungible />
           </Grid>
           <Grid item xs={4} className="infoGridExample"></Grid>
         </Grid>
@@ -111,18 +110,15 @@ export default function BasicTabs() {
         <Grid container sx={{ zIndex: 3 }} className="example-grid-wrapper">
           <Grid item xs={4} className="infoGridExample">
             <Box className="example-1-text-tab">
-              How to create Non-Fungible tokens NFTs) on Bitcoin Computer
+              How to create Chat app on Bitcoin Computer
             </Box>
             <Box className="example-1-subtext-tab">
-              A non-fungible token is an object that has some state. In the
-              example below the entire state is stored in a single property
-              state. The token has a function setState to update the state and a
-              function send to assign a new owner.
+              A chat is an object with a property messages, that is initially empty. It has a function invite that adds another user to the _owners array thereby giving them write access (only the creator has write access initially). Once invited a user can call post to send a message to the chat and invite other users.
             </Box>
           </Grid>
           <Grid item xs={4} className="infoGridExample">
             {/* <Box className="example-rectangle" /> */}
-            <CodeSection />
+            <CodeSectionChat />
           </Grid>
           <Grid item xs={4} className="infoGridExample"></Grid>
         </Grid>
