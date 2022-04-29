@@ -48,7 +48,7 @@ function App() {
       <Features />
       <Pricing />
       <Examples />
-      <About />
+      {/* <About /> */}
       {/* <Footer /> */}
       <Box className="contact-container">
         <Box className="vertical-grid-line-1 grid-opacity" />

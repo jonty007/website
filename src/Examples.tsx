@@ -21,7 +21,7 @@ function Examples() {
       <Box className="examples-heading-tab">Examples</Box>
       <ExampleTabs />
       <Box className="information-text">
-        View the Bitcoin Computer Docs for More Examples and Tutorials:
+        View the Bitcoin Computer Docs for More Examples and Tutorials:&nbsp;
         <a href="https://docs.bitcoincomputer.io" target="_blank" className="docsLinkExamples">docs.bitcoincomputer.io</a>
       </Box>
       <Box className="line4" />
