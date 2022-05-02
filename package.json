@@ -1,6 +1,6 @@
 {
   "name": "bitcoin-computer-website",
-  "homepage": "https://bitcoin-computer.github.io/website/",
+  "homepage": "https://testing.bitcoincomputer.io",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

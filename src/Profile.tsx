@@ -14,7 +14,7 @@ function Profile(props: ProfileProps) {
       <Box className="profile-container">
         <img
           className="profile-picture"
-          src="https://bitcoin-computer.github.io/website/portrait.png"
+          src="/portrait.png"
           alt="profile"
         />
         <Box className="profile-name">{props.name}</Box>

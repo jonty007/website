@@ -69,7 +69,7 @@ function Features() {
       <Box className="graph-container">
         <img
           className="graph2"
-          src="https://bitcoin-computer.github.io/website/Graph-2.png"
+          src="/Graph-2.png"
           alt="graph2"
         />
       </Box>

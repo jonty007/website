@@ -20,7 +20,7 @@ function App() {
         <Grid container sx={{height: "6vw"}}>
           <Grid item xs={3} sx={{ textAlign: "left" }}>
             <img
-              src="https://bitcoin-computer.github.io/website/logo/BitcoinComputer-Logo.png"
+              src="/logo/BitcoinComputer-Logo.png"
               height="40px"
               alt="logo"
             />

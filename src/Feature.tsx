@@ -11,7 +11,7 @@ function Feature(props: FeatureProps) {
     <Box>
       <Box sx={{ textAlign: "start" }}>
         <img
-          src="https://bitcoin-computer.github.io/website/feature-dot.png"
+          src="/feature-dot.png"
           className="featureDot"
           alt="dot"
         ></img>
